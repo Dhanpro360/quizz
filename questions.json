@@ -1,0 +1,1746 @@
+[
+  {
+    "id": "ergo_w01_q01",
+    "asg": 1,
+    "q_num": 1,
+    "q": "Systems ergonomics view focusing on the optimization of the interactions between the human body and the computer or a machine can come under?",
+    "opts": {
+      "A": "Product ergonomics",
+      "B": "Production ergonomics",
+      "C": "Macro ergonomics",
+      "D": "Micro ergonomics"
+    },
+    "ans": "D",
+    "topic": "Week 01: Systems Ergonomics & Musculoskeletal Tools",
+    "expl": ""
+  },
+  {
+    "id": "ergo_w01_q02",
+    "asg": 1,
+    "q_num": 2,
+    "q": "Identify the option that is not the role of an ergonomist.",
+    "opts": {
+      "A": "Profit generation",
+      "B": "Human capability and limitations",
+      "C": "Environmental factors",
+      "D": "None of these"
+    },
+    "ans": "A",
+    "topic": "Week 01: Systems Ergonomics & Musculoskeletal Tools",
+    "expl": ""
+  },
+  {
+    "id": "ergo_w01_q03",
+    "asg": 1,
+    "q_num": 3,
+    "q": "Ergonomics tools and techniques, which are used for understanding a system, will come under which division?",
+    "opts": {
+      "A": "Analytical",
+      "B": "Evaluative",
+      "C": "Analysis and evaluation",
+      "D": "None of these"
+    },
+    "ans": "A",
+    "topic": "Week 01: Systems Ergonomics & Musculoskeletal Tools",
+    "expl": ""
+  },
+  {
+    "id": "ergo_w01_q04",
+    "asg": 1,
+    "q_num": 4,
+    "q": "Which of the following is not a main assessment method used in studying musculoskeletal injuries?",
+    "opts": {
+      "A": "PLIBLE",
+      "B": "RULA",
+      "C": "NIBOSH discomfort survey",
+      "D": "Dutch Musculoskeletal Survey (DMS)"
+    },
+    "ans": "B",
+    "topic": "Week 01: Systems Ergonomics & Musculoskeletal Tools",
+    "expl": ""
+  },
+  {
+    "id": "ergo_w01_q05",
+    "asg": 1,
+    "q_num": 5,
+    "q": "In PLIBEL, the assessments are focused on which factors?",
+    "opts": {
+      "A": "Tasks that are most frequently performed in working hours",
+      "B": "Tasks that can be observed as stressful to the musculoskeletal system",
+      "C": "Tasks that are frequently performed and observed to be stressful",
+      "D": "None of these"
+    },
+    "ans": "C",
+    "topic": "Week 01: Systems Ergonomics & Musculoskeletal Tools",
+    "expl": ""
+  },
+  {
+    "id": "ergo_w01_q06",
+    "asg": 1,
+    "q_num": 6,
+    "q": "In a Musculoskeletal discomfort NIOSH assessment process, the rating of the problem is rated on.",
+    "opts": {
+      "A": "Duration",
+      "B": "Frequency",
+      "C": "Intensity",
+      "D": "All of these"
+    },
+    "ans": "D",
+    "topic": "Week 01: Systems Ergonomics & Musculoskeletal Tools",
+    "expl": ""
+  },
+  {
+    "id": "ergo_w01_q07",
+    "asg": 1,
+    "q_num": 7,
+    "q": "The Lifestyle of the worker is not considered in the Dutch Musculoskeletal Questionnaire (DMQ)",
+    "opts": {
+      "A": "True",
+      "B": "False"
+    },
+    "ans": "B",
+    "topic": "Week 01: Systems Ergonomics & Musculoskeletal Tools",
+    "expl": ""
+  },
+  {
+    "id": "ergo_w01_q08",
+    "asg": 1,
+    "q_num": 8,
+    "q": "The Dutch Musculoskeletal Questionnaire (DMQ) has to be directly filled by the subject(worker)",
+    "opts": {
+      "A": "True",
+      "B": "False"
+    },
+    "ans": "A",
+    "topic": "Week 01: Systems Ergonomics & Musculoskeletal Tools",
+    "expl": ""
+  },
+  {
+    "id": "ergo_w01_q09",
+    "asg": 1,
+    "q_num": 9,
+    "q": "The Dutch Musculoskeletal Questionnaire (DMQ) can provide",
+    "opts": {
+      "A": "Broad overview of the risk factors",
+      "B": "Solution of the problems identified",
+      "C": "Both overview and solutions",
+      "D": "None of these"
+    },
+    "ans": "A",
+    "topic": "Week 01: Systems Ergonomics & Musculoskeletal Tools",
+    "expl": ""
+  },
+  {
+    "id": "ergo_w01_q10",
+    "asg": 1,
+    "q_num": 10,
+    "q": "Optimization of the relationships in the system \"Man – Technology – Organization\" can come under?",
+    "opts": {
+      "A": "Product ergonomics",
+      "B": "Production ergonomics",
+      "C": "Macro ergonomics",
+      "D": "Micro ergonomics"
+    },
+    "ans": "C",
+    "topic": "Week 01: Systems Ergonomics & Musculoskeletal Tools",
+    "expl": ""
+  },
+  {
+    "id": "ergo_w02_q01",
+    "asg": 2,
+    "q_num": 1,
+    "q": "In the Job Strain Index (JSI), what body parts are under consideration for the assessment process?",
+    "opts": {
+      "A": "Hand, wrist, and elbow",
+      "B": "Upper body",
+      "C": "Entire body",
+      "D": "None of these"
+    },
+    "ans": "A",
+    "topic": "Week 02: Job Strain Index (JSI)",
+    "expl": ""
+  },
+  {
+    "id": "ergo_w02_q02",
+    "asg": 2,
+    "q_num": 2,
+    "q": "In the Job Strain Index (JSI), the left and right sides can be assessed independently.",
+    "opts": {
+      "A": "True",
+      "B": "False"
+    },
+    "ans": "A",
+    "topic": "Week 02: Job Strain Index (JSI)",
+    "expl": ""
+  },
+  {
+    "id": "ergo_w02_q03",
+    "asg": 2,
+    "q_num": 3,
+    "q": "What are the elements that are not considered for calculating JSI score?",
+    "opts": {
+      "A": "Duration of the task",
+      "B": "Hand/wrist posture",
+      "C": "Duration of exertion",
+      "D": "None of these"
+    },
+    "ans": "D",
+    "topic": "Week 02: Job Strain Index (JSI)",
+    "expl": ""
+  },
+  {
+    "id": "ergo_w02_q04",
+    "asg": 2,
+    "q_num": 4,
+    "q": "Which factors are considered when rating the Hand/wrist Posture (HP) when calculating the JSI score?",
+    "opts": {
+      "A": "Wrist extension and flexion",
+      "B": "Ulnar deviation",
+      "C": "Both wrist movements and ulnar deviation",
+      "D": "None of these"
+    },
+    "ans": "C",
+    "topic": "Week 02: Job Strain Index (JSI)",
+    "expl": ""
+  },
+  {
+    "id": "ergo_w02_q05",
+    "asg": 2,
+    "q_num": 5,
+    "q": "There are a limited number of postures that are considered in the OWAS posture assessment.",
+    "opts": {
+      "A": "True",
+      "B": "False"
+    },
+    "ans": "A",
+    "topic": "Week 02: Job Strain Index (JSI)",
+    "expl": ""
+  },
+  {
+    "id": "ergo_w02_q06",
+    "asg": 2,
+    "q_num": 6,
+    "q": "What are the factors that are not considered in OWAS posture assessment?",
+    "opts": {
+      "A": "Duration of posture",
+      "B": "Elbow and wrist posture",
+      "C": "Load lifted",
+      "D": "Both duration and elbow/wrist posture"
+    },
+    "ans": "D",
+    "topic": "Week 02: Job Strain Index (JSI)",
+    "expl": ""
+  },
+  {
+    "id": "ergo_w02_q07",
+    "asg": 2,
+    "q_num": 7,
+    "q": "RULA assessment can be performed when the worker is.",
+    "opts": {
+      "A": "Standing without moving about",
+      "B": "Seated",
+      "C": "Both static standing and seating",
+      "D": "None of these"
+    },
+    "ans": "C",
+    "topic": "Week 02: Job Strain Index (JSI)",
+    "expl": ""
+  },
+  {
+    "id": "ergo_w02_q08",
+    "asg": 2,
+    "q_num": 8,
+    "q": "Musculoskeletal load on the present and the modified workstation design can be compared with the help of RULA",
+    "opts": {
+      "A": "True",
+      "B": "False"
+    },
+    "ans": "A",
+    "topic": "Week 02: Job Strain Index (JSI)",
+    "expl": ""
+  },
+  {
+    "id": "ergo_w02_q09",
+    "asg": 2,
+    "q_num": 9,
+    "q": "What is the total number of steps present in RULA analysis?",
+    "opts": {
+      "A": "14",
+      "B": "15",
+      "C": "16",
+      "D": "None of these"
+    },
+    "ans": "B",
+    "topic": "Week 02: Job Strain Index (JSI)",
+    "expl": ""
+  },
+  {
+    "id": "ergo_w02_q10",
+    "asg": 2,
+    "q_num": 10,
+    "q": "What is the total number of steps present in REBA analysis?",
+    "opts": {
+      "A": "12",
+      "B": "13",
+      "C": "14",
+      "D": "None of these"
+    },
+    "ans": "B",
+    "topic": "Week 02: Job Strain Index (JSI)",
+    "expl": ""
+  },
+  {
+    "id": "ergo_w03_q01",
+    "asg": 3,
+    "q_num": 1,
+    "q": "What are the assessments that are not carried out using MAC?",
+    "opts": {
+      "A": "Carrying operation",
+      "B": "Lifting operation",
+      "C": "Team handling operation",
+      "D": "None of these"
+    },
+    "ans": "D",
+    "topic": "Week 03: Manual Handling Assessment Charts (MAC)",
+    "expl": ""
+  },
+  {
+    "id": "ergo_w03_q02",
+    "asg": 3,
+    "q_num": 2,
+    "q": "The use of MAC is not appropriate for?",
+    "opts": {
+      "A": "Carrying tasks",
+      "B": "Manual pulling and pushing operations",
+      "C": "Both carrying and manual pulling/pushing",
+      "D": "None of these"
+    },
+    "ans": "B",
+    "topic": "Week 03: Manual Handling Assessment Charts (MAC)",
+    "expl": ""
+  },
+  {
+    "id": "ergo_w03_q03",
+    "asg": 3,
+    "q_num": 3,
+    "q": "Which of the following risk factors are not rated under the lifting operations in the MAC?",
+    "opts": {
+      "A": "Carry distance",
+      "B": "Load weight/frequency",
+      "C": "Grip on the load",
+      "D": "None of these"
+    },
+    "ans": "A",
+    "topic": "Week 03: Manual Handling Assessment Charts (MAC)",
+    "expl": ""
+  },
+  {
+    "id": "ergo_w03_q04",
+    "asg": 3,
+    "q_num": 4,
+    "q": "Which of the following risk factors are rated under the carrying operations in the MAC?",
+    "opts": {
+      "A": "Vertical lift zones",
+      "B": "Load weight/frequency",
+      "C": "Co-ordination",
+      "D": "None of these"
+    },
+    "ans": "B",
+    "topic": "Week 03: Manual Handling Assessment Charts (MAC)",
+    "expl": ""
+  },
+  {
+    "id": "ergo_w03_q05",
+    "asg": 3,
+    "q_num": 5,
+    "q": "In MAC, the risk factors related to communication, co-ordination, and control are not rated in?",
+    "opts": {
+      "A": "Carrying operations",
+      "B": "Lifting operations",
+      "C": "Team handling operations",
+      "D": "Both lifting and carrying operations"
+    },
+    "ans": "D",
+    "topic": "Week 03: Manual Handling Assessment Charts (MAC)",
+    "expl": ""
+  },
+  {
+    "id": "ergo_w03_q06",
+    "asg": 3,
+    "q_num": 6,
+    "q": "In MAC, \"P = PURPLE\" is used to represent which level of risk?",
+    "opts": {
+      "A": "Low",
+      "B": "Medium",
+      "C": "High",
+      "D": "Unacceptable"
+    },
+    "ans": "D",
+    "topic": "Week 03: Manual Handling Assessment Charts (MAC)",
+    "expl": ""
+  },
+  {
+    "id": "ergo_w03_q07",
+    "asg": 3,
+    "q_num": 7,
+    "q": "What all ways of manipulating load can be considered as manual handling?",
+    "opts": {
+      "A": "Lifting and lowering",
+      "B": "Pushing and pulling",
+      "C": "Moving and carrying",
+      "D": "All of these"
+    },
+    "ans": "D",
+    "topic": "Week 03: Manual Handling Assessment Charts (MAC)",
+    "expl": ""
+  },
+  {
+    "id": "ergo_w03_q08",
+    "asg": 3,
+    "q_num": 8,
+    "q": "When carrying a load, the risk can be minimized when the load is held against the body.",
+    "opts": {
+      "A": "True",
+      "B": "False"
+    },
+    "ans": "A",
+    "topic": "Week 03: Manual Handling Assessment Charts (MAC)",
+    "expl": ""
+  },
+  {
+    "id": "ergo_w03_q09",
+    "asg": 3,
+    "q_num": 9,
+    "q": "What is the acceptable range of weight that can be handled by men in seating posture",
+    "opts": {
+      "A": "4",
+      "B": "5",
+      "C": "6",
+      "D": "None of these"
+    },
+    "ans": "B",
+    "topic": "Week 03: Manual Handling Assessment Charts (MAC)",
+    "expl": ""
+  },
+  {
+    "id": "ergo_w03_q10",
+    "asg": 3,
+    "q_num": 10,
+    "q": "What are the various aspects considered in the Quick Exposure Checklist (QEC)?",
+    "opts": {
+      "A": "Back",
+      "B": "Stress",
+      "C": "Vibration",
+      "D": "All of these"
+    },
+    "ans": "D",
+    "topic": "Week 03: Manual Handling Assessment Charts (MAC)",
+    "expl": ""
+  },
+  {
+    "id": "ergo_w04_q01",
+    "asg": 4,
+    "q_num": 1,
+    "q": "The position of the body when the hands are directly in front of the body and there is minimal twisting at the legs, torso, or shoulders can be termed as?",
+    "opts": {
+      "A": "Neutral body position",
+      "B": "Natural body position",
+      "C": "Active body position",
+      "D": "None of these"
+    },
+    "ans": "A",
+    "topic": "Week 04: Postural Assessment (RULA & REBA)",
+    "expl": ""
+  },
+  {
+    "id": "ergo_w04_q02",
+    "asg": 4,
+    "q_num": 2,
+    "q": "In the NIOSH Lifting equation, the absolute value of the difference between the vertical height at the destination and origin of the lift can be termed as?",
+    "opts": {
+      "A": "Vertical lift",
+      "B": "Vertical travel distance",
+      "C": "Horizontal lift",
+      "D": "None of these"
+    },
+    "ans": "B",
+    "topic": "Week 04: Postural Assessment (RULA & REBA)",
+    "expl": ""
+  },
+  {
+    "id": "ergo_w04_q03",
+    "asg": 4,
+    "q_num": 3,
+    "q": "In the NIOSH Lifting equation, the Lifting task can be defined as the act of mechanically grasping an object of definable size and mass with two hands and vertically moving the object with mechanical assistance.",
+    "opts": {
+      "A": "True",
+      "B": "False"
+    },
+    "ans": "B",
+    "topic": "Week 04: Postural Assessment (RULA & REBA)",
+    "expl": ""
+  },
+  {
+    "id": "ergo_w04_q04",
+    "asg": 4,
+    "q_num": 4,
+    "q": "The distance of the hands away from the mid-point between the ankles, is called as?",
+    "opts": {
+      "A": "Horizontal location",
+      "B": "Vertical location",
+      "C": "Both horizontal and vertical",
+      "D": "None of these"
+    },
+    "ans": "A",
+    "topic": "Week 04: Postural Assessment (RULA & REBA)",
+    "expl": ""
+  },
+  {
+    "id": "ergo_w04_q05",
+    "asg": 4,
+    "q_num": 5,
+    "q": "In the NIOSH Lifting equation, the distance of the hands above the floor is called?",
+    "opts": {
+      "A": "Horizontal location",
+      "B": "Vertical location",
+      "C": "Both horizontal and vertical",
+      "D": "None of these"
+    },
+    "ans": "B",
+    "topic": "Week 04: Postural Assessment (RULA & REBA)",
+    "expl": ""
+  },
+  {
+    "id": "ergo_w04_q06",
+    "asg": 4,
+    "q_num": 6,
+    "q": "_______ is defined for a specific set of task conditions as the weight of the load that nearly all healthy workers could perform over a substantial period of time without an increased risk of developing lifting-related low back pain.",
+    "opts": {
+      "A": "Recommended Weight Limit (RWL)",
+      "B": "Lifting Index (LI)",
+      "C": "NIOSH",
+      "D": "None of these"
+    },
+    "ans": "A",
+    "topic": "Week 04: Postural Assessment (RULA & REBA)",
+    "expl": ""
+  },
+  {
+    "id": "ergo_w04_q07",
+    "asg": 4,
+    "q_num": 7,
+    "q": "A relative estimate of the level of physical stress associated with a particular manual lifting task is given by?",
+    "opts": {
+      "A": "Recommended Weight Limit (RWL)",
+      "B": "Lifting Index (LI)",
+      "C": "NIOSH",
+      "D": "None of these"
+    },
+    "ans": "B",
+    "topic": "Week 04: Postural Assessment (RULA & REBA)",
+    "expl": ""
+  },
+  {
+    "id": "ergo_w04_q08",
+    "asg": 4,
+    "q_num": 8,
+    "q": "The Rodgers muscle fatigue analysis can be used for evaluating production tasks having fewer than 12 to 15 repetitions per minute with the same muscle groups.",
+    "opts": {
+      "A": "True",
+      "B": "False"
+    },
+    "ans": "A",
+    "topic": "Week 04: Postural Assessment (RULA & REBA)",
+    "expl": ""
+  },
+  {
+    "id": "ergo_w04_q09",
+    "asg": 4,
+    "q_num": 9,
+    "q": "In the Borg RPE scale, the correlation between the scale and the heart rate can be represented as?",
+    "opts": {
+      "A": "Heart rate = 10 x Scale value",
+      "B": "Scale value = 10 x heart rate",
+      "C": "Heart rate = 100 x Scale value",
+      "D": "Heart rate = 0.1 x Scale value"
+    },
+    "ans": "A",
+    "topic": "Week 04: Postural Assessment (RULA & REBA)",
+    "expl": ""
+  },
+  {
+    "id": "ergo_w04_q10",
+    "asg": 4,
+    "q_num": 10,
+    "q": "In Rodgers muscle fatigue analysis, a category of _____ for Effort level, Continuous effort duration, or Frequency is automatically Very High (VH).",
+    "opts": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4"
+    },
+    "ans": "D",
+    "topic": "Week 04: Postural Assessment (RULA & REBA)",
+    "expl": ""
+  },
+  {
+    "id": "ergo_w05_q01",
+    "asg": 5,
+    "q_num": 1,
+    "q": "Snooks table lacks sensitivity to the bending and twisting motions that are often associated with the onset of low back pain.",
+    "opts": {
+      "A": "True",
+      "B": "False"
+    },
+    "ans": "A",
+    "topic": "Week 05: Snook Tables & Manual Material Handling",
+    "expl": ""
+  },
+  {
+    "id": "ergo_w05_q02",
+    "asg": 5,
+    "q_num": 2,
+    "q": "Which of the following kinds of tasks are not addressed in the Snooks table?",
+    "opts": {
+      "A": "Lifting",
+      "B": "Carrying",
+      "C": "Pushing",
+      "D": "None of these"
+    },
+    "ans": "D",
+    "topic": "Week 05: Snook Tables & Manual Material Handling",
+    "expl": ""
+  },
+  {
+    "id": "ergo_w05_q03",
+    "asg": 5,
+    "q_num": 3,
+    "q": "The Lumber Motion Monitor can be used to measure.",
+    "opts": {
+      "A": "Instantaneous position of spine",
+      "B": "Pelvis location with respect to spine",
+      "C": "Velocity and acceleration of the spine",
+      "D": "All of these"
+    },
+    "ans": "D",
+    "topic": "Week 05: Snook Tables & Manual Material Handling",
+    "expl": ""
+  },
+  {
+    "id": "ergo_w05_q04",
+    "asg": 5,
+    "q_num": 4,
+    "q": "The Lower Back Pain (LBP) risk model will also help in assessing the potential risk of injuries to other body parts like the wrist and knee.",
+    "opts": {
+      "A": "True",
+      "B": "False"
+    },
+    "ans": "B",
+    "topic": "Week 05: Snook Tables & Manual Material Handling",
+    "expl": ""
+  },
+  {
+    "id": "ergo_w05_q05",
+    "asg": 5,
+    "q_num": 5,
+    "q": "Which of the trunk motion parameters is measured in the Lumber Motion Monitor?",
+    "opts": {
+      "A": "Maximum sagittal flexion position",
+      "B": "Maximum lateral velocity",
+      "C": "Average twisting velocity",
+      "D": "All of these"
+    },
+    "ans": "D",
+    "topic": "Week 05: Snook Tables & Manual Material Handling",
+    "expl": ""
+  },
+  {
+    "id": "ergo_w05_q06",
+    "asg": 5,
+    "q_num": 6,
+    "q": "Which of the following body parts are considered while identifying the Posture factor (Pf) in OCRA analysis?",
+    "opts": {
+      "A": "Elbow and wrist",
+      "B": "Shoulder",
+      "C": "Hand",
+      "D": "All of these"
+    },
+    "ans": "D",
+    "topic": "Week 05: Snook Tables & Manual Material Handling",
+    "expl": ""
+  },
+  {
+    "id": "ergo_w05_q07",
+    "asg": 5,
+    "q_num": 7,
+    "q": "Borg 10-category scale is needed in OCRA.",
+    "opts": {
+      "A": "True",
+      "B": "False"
+    },
+    "ans": "A",
+    "topic": "Week 05: Snook Tables & Manual Material Handling",
+    "expl": ""
+  },
+  {
+    "id": "ergo_w05_q08",
+    "asg": 5,
+    "q_num": 8,
+    "q": "What is the minimum duration of the task that is performed in a total day so that the HARM can be applied?",
+    "opts": {
+      "A": "10 minutes",
+      "B": "1 minute",
+      "C": "10 hours",
+      "D": "1 hour"
+    },
+    "ans": "D",
+    "topic": "Week 05: Snook Tables & Manual Material Handling",
+    "expl": ""
+  },
+  {
+    "id": "ergo_w05_q09",
+    "asg": 5,
+    "q_num": 9,
+    "q": "All hand and arm tasks, including computer work, can be assessed through the HARM tool.",
+    "opts": {
+      "A": "True",
+      "B": "False"
+    },
+    "ans": "B",
+    "topic": "Week 05: Snook Tables & Manual Material Handling",
+    "expl": ""
+  },
+  {
+    "id": "ergo_w05_q10",
+    "asg": 5,
+    "q_num": 10,
+    "q": "HARM can be applicable on tasks that involve one handed force exertion of less than ___kg.",
+    "opts": {
+      "A": "3",
+      "B": "5",
+      "C": "6",
+      "D": "8"
+    },
+    "ans": "C",
+    "topic": "Week 05: Snook Tables & Manual Material Handling",
+    "expl": ""
+  },
+  {
+    "id": "ergo_w06_q01",
+    "asg": 6,
+    "q_num": 1,
+    "q": "What are the additional factors that are considered in the ART tool?",
+    "opts": {
+      "A": "Work pace",
+      "B": "Brakes",
+      "C": "Hand Grip",
+      "D": "Both work pace and brakes"
+    },
+    "ans": "D",
+    "topic": "Week 06: Assessment of Repetitive Tasks (ART)",
+    "expl": ""
+  },
+  {
+    "id": "ergo_w06_q02",
+    "asg": 6,
+    "q_num": 2,
+    "q": "What are the factors that are not considered in Stage C: Awkward postures of ART tool?",
+    "opts": {
+      "A": "Hand/finger grip",
+      "B": "Wrist posture",
+      "C": "Back posture",
+      "D": "None of these"
+    },
+    "ans": "D",
+    "topic": "Week 06: Assessment of Repetitive Tasks (ART)",
+    "expl": ""
+  },
+  {
+    "id": "ergo_w06_q03",
+    "asg": 6,
+    "q_num": 3,
+    "q": "What are the factors that are considered in Stage A: Frequency and repetition of movements of ART tool?",
+    "opts": {
+      "A": "Arm movements",
+      "B": "Repetition",
+      "C": "Both arm movement and repetition",
+      "D": "Hand/finger grip"
+    },
+    "ans": "C",
+    "topic": "Week 06: Assessment of Repetitive Tasks (ART)",
+    "expl": ""
+  },
+  {
+    "id": "ergo_w06_q04",
+    "asg": 6,
+    "q_num": 4,
+    "q": "The RAPP tool can be used for assessing the lifting task?",
+    "opts": {
+      "A": "True",
+      "B": "False"
+    },
+    "ans": "B",
+    "topic": "Week 06: Assessment of Repetitive Tasks (ART)",
+    "expl": ""
+  },
+  {
+    "id": "ergo_w06_q05",
+    "asg": 6,
+    "q_num": 5,
+    "q": "Which of the following factors are considered in the RAPP tool?",
+    "opts": {
+      "A": "Flore surface",
+      "B": "Condition of the equipment",
+      "C": "Hand grip",
+      "D": "All of these"
+    },
+    "ans": "D",
+    "topic": "Week 06: Assessment of Repetitive Tasks (ART)",
+    "expl": ""
+  },
+  {
+    "id": "ergo_w06_q06",
+    "asg": 6,
+    "q_num": 6,
+    "q": "The MAPO tool was initially developed for addressing which files?",
+    "opts": {
+      "A": "Industrial workers",
+      "B": "Hospital and nursing home",
+      "C": "Both industry and hospital",
+      "D": "None of these"
+    },
+    "ans": "B",
+    "topic": "Week 06: Assessment of Repetitive Tasks (ART)",
+    "expl": ""
+  },
+  {
+    "id": "ergo_w06_q07",
+    "asg": 6,
+    "q_num": 7,
+    "q": "Which of the following factors are not considered in the MAPO tool?",
+    "opts": {
+      "A": "Training factor",
+      "B": "Minor aids factor",
+      "C": "Environmental factor",
+      "D": "Co-ordination factor"
+    },
+    "ans": "D",
+    "topic": "Week 06: Assessment of Repetitive Tasks (ART)",
+    "expl": ""
+  },
+  {
+    "id": "ergo_w06_q08",
+    "asg": 6,
+    "q_num": 8,
+    "q": "What are the various parts of the data sheet that are required to calculate the MAPO index?",
+    "opts": {
+      "A": "Interviews",
+      "B": "On-site inspections",
+      "C": "Both interviews and on-site inspections",
+      "D": "None of these"
+    },
+    "ans": "C",
+    "topic": "Week 06: Assessment of Repetitive Tasks (ART)",
+    "expl": ""
+  },
+  {
+    "id": "ergo_w06_q09",
+    "asg": 6,
+    "q_num": 9,
+    "q": "Training factors are specifically considered in the MAPO tool.",
+    "opts": {
+      "A": "True",
+      "B": "False"
+    },
+    "ans": "A",
+    "topic": "Week 06: Assessment of Repetitive Tasks (ART)",
+    "expl": ""
+  },
+  {
+    "id": "ergo_w06_q10",
+    "asg": 6,
+    "q_num": 10,
+    "q": "Which of the following can be considered as the Minor Aid Factors (AF) while using the MAPO tool?",
+    "opts": {
+      "A": "Wheelchair",
+      "B": "Sliding sheet",
+      "C": "Bed",
+      "D": "None of these"
+    },
+    "ans": "B",
+    "topic": "Week 06: Assessment of Repetitive Tasks (ART)",
+    "expl": ""
+  },
+  {
+    "id": "ergo_w07_q01",
+    "asg": 7,
+    "q_num": 1,
+    "q": "How is reliability evaluated and checked when using observational techniques?",
+    "opts": {
+      "A": "The interview is conducted with interviewee",
+      "B": "Recording of two observers are compared",
+      "C": "Transcription is cross checked with observers",
+      "D": "The questionnaire is prepared to compare"
+    },
+    "ans": "B",
+    "topic": "Week 07: Introduction & General Analysis Methods",
+    "expl": "Follow the lecture 24 of NPTEL lecture series"
+  },
+  {
+    "id": "ergo_w07_q02",
+    "asg": 7,
+    "q_num": 2,
+    "q": "Which item among the following is not required to carry out a verbal protocol procedure?",
+    "opts": {
+      "A": "Spreadsheet package",
+      "B": "Audio or video recording",
+      "C": "Software based video player",
+      "D": "Pen and paper"
+    },
+    "ans": "D",
+    "topic": "Week 07: Introduction & General Analysis Methods",
+    "expl": "Follow the lecture 24 of NPTEL lecture series"
+  },
+  {
+    "id": "ergo_w07_q03",
+    "asg": 7,
+    "q_num": 3,
+    "q": "The total number of available methods under general analysis methods is:",
+    "opts": {
+      "A": "7",
+      "B": "8",
+      "C": "5",
+      "D": "6"
+    },
+    "ans": "C",
+    "topic": "Week 07: Introduction & General Analysis Methods",
+    "expl": "Follow the lecture 23 of NPTEL lecture series"
+  },
+  {
+    "id": "ergo_w07_q04",
+    "asg": 7,
+    "q_num": 4,
+    "q": "The interview process does not create demand characteristics and never produces misleading findings.",
+    "opts": {
+      "A": "True",
+      "B": "False"
+    },
+    "ans": "B",
+    "topic": "Week 07: Introduction & General Analysis Methods",
+    "expl": "Follow the lecture 24 of NPTEL lecture series"
+  },
+  {
+    "id": "ergo_w07_q05",
+    "asg": 7,
+    "q_num": 5,
+    "q": "Critical decision methods are primarily classified as a technique for:",
+    "opts": {
+      "A": "Cognitive task analysis",
+      "B": "Error analysis",
+      "C": "General analysis of cognition",
+      "D": "Workload and situation analysis"
+    },
+    "ans": "A",
+    "topic": "Week 07: Introduction & General Analysis Methods",
+    "expl": "Follow the lecture 23 of NPTEL lecture series"
+  },
+  {
+    "id": "ergo_w07_q06",
+    "asg": 7,
+    "q_num": 6,
+    "q": "In the focus group technique, claims analysis refers to:",
+    "opts": {
+      "A": "The interviewees feedback to develop a set of usage scenarios",
+      "B": "None of these",
+      "C": "Introduction to interviewees to alternative product concept",
+      "D": "The interviewees feedback to identify the features of these products about significance"
+    },
+    "ans": "D",
+    "topic": "Week 07: Introduction & General Analysis Methods",
+    "expl": "Follow the lecture 24 of NPTEL lecture"
+  },
+  {
+    "id": "ergo_w07_q07",
+    "asg": 7,
+    "q_num": 7,
+    "q": "Observational techniques are divided into three distinct categories.",
+    "opts": {
+      "A": "False",
+      "B": "True"
+    },
+    "ans": "B",
+    "topic": "Week 07: Introduction & General Analysis Methods",
+    "expl": "Follow the lecture 24 of NPTEL lecture series"
+  },
+  {
+    "id": "ergo_w07_q08",
+    "asg": 7,
+    "q_num": 8,
+    "q": "How many distinct types of interviews are carried out for general analysis?",
+    "opts": {
+      "A": "3",
+      "B": "5",
+      "C": "4",
+      "D": "6"
+    },
+    "ans": "A",
+    "topic": "Week 07: Introduction & General Analysis Methods",
+    "expl": "Follow the lecture 24 of NPTEL lecture series"
+  },
+  {
+    "id": "ergo_w07_q09",
+    "asg": 7,
+    "q_num": 9,
+    "q": "The focus group method is commonly referred to as the 'group interview' technique.",
+    "opts": {
+      "A": "True",
+      "B": "False"
+    },
+    "ans": "A",
+    "topic": "Week 07: Introduction & General Analysis Methods",
+    "expl": "Follow the lecture 25 of NPTEL lecture series"
+  },
+  {
+    "id": "ergo_w07_q10",
+    "asg": 7,
+    "q_num": 10,
+    "q": "Which of the following represents the 5th stage of the verbal protocol procedure?",
+    "opts": {
+      "A": "Transcription",
+      "B": "Encoding",
+      "C": "Device scenario",
+      "D": "Recording"
+    },
+    "ans": "B",
+    "topic": "Week 07: Introduction & General Analysis Methods",
+    "expl": "Follow the lecture 24 of NPTEL lecture series"
+  },
+  {
+    "id": "ergo_w08_q01",
+    "asg": 8,
+    "q_num": 1,
+    "q": "In Hierarchical Task Analysis (HTA), signals indicating the achievement of a goal are designated as:",
+    "opts": {
+      "A": "Action",
+      "B": "Input",
+      "C": "Feedback",
+      "D": "Plan"
+    },
+    "ans": "C",
+    "topic": "Week 08: Cognitive Task Analysis Methods (HTA)",
+    "expl": "Follow the lecture 26 of NPTEL lecture series"
+  },
+  {
+    "id": "ergo_w08_q02",
+    "asg": 8,
+    "q_num": 2,
+    "q": "Which approaches and aids are included within the allocation of functions method?",
+    "opts": {
+      "A": "Hypothetical deductive model",
+      "B": "Computational aids",
+      "C": "Psychometric approaches",
+      "D": "All of these"
+    },
+    "ans": "D",
+    "topic": "Week 08: Cognitive Task Analysis Methods (HTA)",
+    "expl": "Follow the lecture 27 of NPTEL lecture series"
+  },
+  {
+    "id": "ergo_w08_q03",
+    "asg": 8,
+    "q_num": 3,
+    "q": "Cognitive task analysis methods describe task strategies and required knowledge alongside human performance and error.",
+    "opts": {
+      "A": "True",
+      "B": "False"
+    },
+    "ans": "B",
+    "topic": "Week 08: Cognitive Task Analysis Methods (HTA)",
+    "expl": "Follow the lecture 26 of NPTEL lecture series"
+  },
+  {
+    "id": "ergo_w08_q04",
+    "asg": 8,
+    "q_num": 4,
+    "q": "Applying the allocation of function method in a large-scale system is considered inexpensive.",
+    "opts": {
+      "A": "False",
+      "B": "True"
+    },
+    "ans": "A",
+    "topic": "Week 08: Cognitive Task Analysis Methods (HTA)",
+    "expl": "Follow the lecture 28 of NPTEL lecture series"
+  },
+  {
+    "id": "ergo_w08_q05",
+    "asg": 8,
+    "q_num": 5,
+    "q": "What constitutes the 4th stage in the Hierarchical Task Analysis methodology?",
+    "opts": {
+      "A": "Identification of the source for task information",
+      "B": "Acquiring data and draft decomposition table or diagram",
+      "C": "Determination of task goals and performance criteria",
+      "D": "Rechecking the validity of decomposition with stakeholders"
+    },
+    "ans": "B",
+    "topic": "Week 08: Cognitive Task Analysis Methods (HTA)",
+    "expl": "Follow the lecture 27 of NPTEL lecture series"
+  },
+  {
+    "id": "ergo_w08_q06",
+    "asg": 8,
+    "q_num": 6,
+    "q": "Which stage listed below is not included in cognitive task analysis methods?",
+    "opts": {
+      "A": "Background preparation",
+      "B": "Elicitation of knowledge",
+      "C": "Situation awareness representation",
+      "D": "Knowledge representation"
+    },
+    "ans": "C",
+    "topic": "Week 08: Cognitive Task Analysis Methods (HTA)",
+    "expl": "Follow the lecture 26 of NPTEL lecture series"
+  },
+  {
+    "id": "ergo_w08_q07",
+    "asg": 8,
+    "q_num": 7,
+    "q": "What is executed in the 3rd step of the Critical Decision Method?",
+    "opts": {
+      "A": "Probe with what-if queries to elicit potential expert/novice differences",
+      "B": "Deepen strategies for managing decision points embedded in the timeline",
+      "C": "Create a detail incident timeline that shows the sequence of events",
+      "D": "Identification of a complex potential incident to elicit discoveries about cognitive phenomena"
+    },
+    "ans": "B",
+    "topic": "Week 08: Cognitive Task Analysis Methods (HTA)",
+    "expl": "Follow the lecture 29 of NPTEL lecture series"
+  },
+  {
+    "id": "ergo_w08_q08",
+    "asg": 8,
+    "q_num": 8,
+    "q": "Which type of HTA plan represents a straightforward linear sequence of operational steps?",
+    "opts": {
+      "A": "A conditional sequence",
+      "B": "Unordered procedure",
+      "C": "Routine procedure",
+      "D": "Time shared procedure"
+    },
+    "ans": "C",
+    "topic": "Week 08: Cognitive Task Analysis Methods (HTA)",
+    "expl": "Follow the lecture 26 of NPTEL lecture series"
+  },
+  {
+    "id": "ergo_w08_q09",
+    "asg": 8,
+    "q_num": 9,
+    "q": "The cross-method adaptation synthesizes the Critical Decision Method with related techniques.",
+    "opts": {
+      "A": "True",
+      "B": "False"
+    },
+    "ans": "A",
+    "topic": "Week 08: Cognitive Task Analysis Methods (HTA)",
+    "expl": "Follow the lecture 29 of NPTEL lecture series"
+  },
+  {
+    "id": "ergo_w08_q10",
+    "asg": 8,
+    "q_num": 10,
+    "q": "In step 3 of the allocation of function method, what does the abbreviation 'C-H' designate for alternative model analysis?",
+    "opts": {
+      "A": "Shared between human and computer where computer in control",
+      "B": "Computer only",
+      "C": "Human only",
+      "D": "Shared between human and computer where human is in control"
+    },
+    "ans": "A",
+    "topic": "Week 08: Cognitive Task Analysis Methods (HTA)",
+    "expl": "Follow the lecture 28 of NPTEL lecture series"
+  },
+  {
+    "id": "ergo_w09_q01",
+    "asg": 9,
+    "q_num": 1,
+    "q": "The approximate training time required to learn the SHERPA technique is:",
+    "opts": {
+      "A": "4 hours",
+      "B": "6 hours",
+      "C": "3 hours",
+      "D": "5 hours"
+    },
+    "ans": "C",
+    "topic": "Week 09: Error Analysis Method (SHERPA & TAFEI)",
+    "expl": "Follow the lecture 30 of NPTEL lecture series"
+  },
+  {
+    "id": "ergo_w09_q02",
+    "asg": 9,
+    "q_num": 2,
+    "q": "Who was the original developer of the Systematic Human Error Reduction and Prediction Approach (SHERPA)?",
+    "opts": {
+      "A": "Stanton",
+      "B": "Embrey",
+      "C": "Williams",
+      "D": "Baber"
+    },
+    "ans": "B",
+    "topic": "Week 09: Error Analysis Method (SHERPA & TAFEI)",
+    "expl": "Follow the lecture 30 of NPTEL lecture series"
+  },
+  {
+    "id": "ergo_w09_q03",
+    "asg": 9,
+    "q_num": 3,
+    "q": "An advantage of the TAFEI method is its structured and comprehensive procedural framework.",
+    "opts": {
+      "A": "False",
+      "B": "True"
+    },
+    "ans": "B",
+    "topic": "Week 09: Error Analysis Method (SHERPA & TAFEI)",
+    "expl": ""
+  },
+  {
+    "id": "ergo_w09_q04",
+    "asg": 9,
+    "q_num": 4,
+    "q": "SHERPA technique explicitly models the cognitive mechanisms underlying human errors.",
+    "opts": {
+      "A": "False",
+      "B": "True"
+    },
+    "ans": "A",
+    "topic": "Week 09: Error Analysis Method (SHERPA & TAFEI)",
+    "expl": "Follow the lecture 30 of NPTEL lecture series"
+  },
+  {
+    "id": "ergo_w09_q05",
+    "asg": 9,
+    "q_num": 5,
+    "q": "Which module of SHERPA is designed to assist analysts in choosing suitable error reduction strategies?",
+    "opts": {
+      "A": "Second module",
+      "B": "Fourth module",
+      "C": "First module",
+      "D": "Third module"
+    },
+    "ans": "D",
+    "topic": "Week 09: Error Analysis Method (SHERPA & TAFEI)",
+    "expl": "Follow the lecture 30 of NPTEL lecture series"
+  },
+  {
+    "id": "ergo_w09_q06",
+    "asg": 9,
+    "q_num": 6,
+    "q": "The Task Analysis For Error Identification (TAFEI) framework was originally proposed by:",
+    "opts": {
+      "A": "Williams and Bridger",
+      "B": "Stanton and Baber",
+      "C": "Joseph and Will",
+      "D": "None of these"
+    },
+    "ans": "B",
+    "topic": "Week 09: Error Analysis Method (SHERPA & TAFEI)",
+    "expl": "Follow the lecture 31 of NPTEL lecture series"
+  },
+  {
+    "id": "ergo_w09_q07",
+    "asg": 9,
+    "q_num": 7,
+    "q": "What is the fourth step involved in applying the SHERPA technique?",
+    "opts": {
+      "A": "Human error identification",
+      "B": "Hierarchical task analysis",
+      "C": "Consequence analysis",
+      "D": "Critical analysis"
+    },
+    "ans": "C",
+    "topic": "Week 09: Error Analysis Method (SHERPA & TAFEI)",
+    "expl": "Follow the lecture 30 of NPTEL lecture series"
+  },
+  {
+    "id": "ergo_w09_q08",
+    "asg": 9,
+    "q_num": 8,
+    "q": "The standard training time needed for the TAFEI technique is approximately:",
+    "opts": {
+      "A": "3 hours",
+      "B": "5 hours",
+      "C": "4 hours",
+      "D": "6 hours"
+    },
+    "ans": "A",
+    "topic": "Week 09: Error Analysis Method (SHERPA & TAFEI)",
+    "expl": "Follow the lecture 31 of NPTEL lecture series"
+  },
+  {
+    "id": "ergo_w09_q09",
+    "asg": 9,
+    "q_num": 9,
+    "q": "In Task Analysis For Error Identification (TAFEI), which component illustrates the behavior of the artifact?",
+    "opts": {
+      "A": "Hierarchical task analysis (HTA)",
+      "B": "Transition Matrix",
+      "C": "State-Space Diagram",
+      "D": "None of these"
+    },
+    "ans": "B",
+    "topic": "Week 09: Error Analysis Method (SHERPA & TAFEI)",
+    "expl": "Follow the lecture 31 of NPTEL lecture series"
+  },
+  {
+    "id": "ergo_w09_q10",
+    "asg": 9,
+    "q_num": 10,
+    "q": "Which of the following tools is specifically needed when conducting a TAFEI analysis?",
+    "opts": {
+      "A": "Spread sheet",
+      "B": "Audio and video recording",
+      "C": "NASA TLX software",
+      "D": "Pen and paper"
+    },
+    "ans": "D",
+    "topic": "Week 09: Error Analysis Method (SHERPA & TAFEI)",
+    "expl": "Follow the lecture 31 of NPTEL lecture series"
+  },
+  {
+    "id": "ergo_w10_q01",
+    "asg": 10,
+    "q_num": 1,
+    "q": "Which dimension in the NASA-TLX assessment measures how hard an individual works to maintain performance levels?",
+    "opts": {
+      "A": "Physical demand",
+      "B": "Performance",
+      "C": "Effort",
+      "D": "Frustration level"
+    },
+    "ans": "C",
+    "topic": "Week 10: Workload & Situation Awareness (NASA-TLX & SAGAT)",
+    "expl": "Follow the lecture 32 of NPTEL lecture series"
+  },
+  {
+    "id": "ergo_w10_q02",
+    "asg": 10,
+    "q_num": 2,
+    "q": "What is the 6th step in the Critical Path Analysis technique?",
+    "opts": {
+      "A": "Calculate forward pass",
+      "B": "Calculate backward pass",
+      "C": "Assign times to the tasks",
+      "D": "Define the task"
+    },
+    "ans": "B",
+    "topic": "Week 10: Workload & Situation Awareness (NASA-TLX & SAGAT)",
+    "expl": "Follow the lecture 34 of NPTEL lecture series"
+  },
+  {
+    "id": "ergo_w10_q03",
+    "asg": 10,
+    "q_num": 3,
+    "q": "Mental workload is defined as a single-dimensional attribute of task demands.",
+    "opts": {
+      "A": "True",
+      "B": "False"
+    },
+    "ans": "B",
+    "topic": "Week 10: Workload & Situation Awareness (NASA-TLX & SAGAT)",
+    "expl": "Follow the lecture 32 of NPTEL lecture series"
+  },
+  {
+    "id": "ergo_w10_q04",
+    "asg": 10,
+    "q_num": 4,
+    "q": "Who developed the Situation Awareness Global Assessment Technique (SAGAT)?",
+    "opts": {
+      "A": "Endsley",
+      "B": "Stanton",
+      "C": "Wicken",
+      "D": "Bush"
+    },
+    "ans": "A",
+    "topic": "Week 10: Workload & Situation Awareness (NASA-TLX & SAGAT)",
+    "expl": "Follow the lecture 35 of NPTEL lecture series"
+  },
+  {
+    "id": "ergo_w10_q05",
+    "asg": 10,
+    "q_num": 5,
+    "q": "Electrodermal response used in mental workload quantification is categorized under:",
+    "opts": {
+      "A": "Subjective rating",
+      "B": "Primary task performance measurement",
+      "C": "Secondary task performance measurement",
+      "D": "Physiological measurement"
+    },
+    "ans": "D",
+    "topic": "Week 10: Workload & Situation Awareness (NASA-TLX & SAGAT)",
+    "expl": "Follow the lecture 32 of NPTEL lecture series"
+  },
+  {
+    "id": "ergo_w10_q06",
+    "asg": 10,
+    "q_num": 6,
+    "q": "Parallel performance in user task execution can be accommodated by Critical Path Analysis.",
+    "opts": {
+      "A": "True",
+      "B": "False"
+    },
+    "ans": "A",
+    "topic": "Week 10: Workload & Situation Awareness (NASA-TLX & SAGAT)",
+    "expl": "Follow the lecture 34 of NPTEL lecture series"
+  },
+  {
+    "id": "ergo_w10_q07",
+    "asg": 10,
+    "q_num": 7,
+    "q": "In NASA-TLX evaluation, each dimension is rated on a numerical scale of:",
+    "opts": {
+      "A": "1-30",
+      "B": "1-10",
+      "C": "1-20",
+      "D": "1-5"
+    },
+    "ans": "C",
+    "topic": "Week 10: Workload & Situation Awareness (NASA-TLX & SAGAT)",
+    "expl": "Follow the lecture 32 of NPTEL lecture series"
+  },
+  {
+    "id": "ergo_w10_q08",
+    "asg": 10,
+    "q_num": 8,
+    "q": "Projecting events and states into the near future corresponds to which level of Situation Awareness?",
+    "opts": {
+      "A": "Level I situation awareness",
+      "B": "Level III situation awareness",
+      "C": "Level II situation awareness",
+      "D": "Level IV situation awareness"
+    },
+    "ans": "B",
+    "topic": "Week 10: Workload & Situation Awareness (NASA-TLX & SAGAT)",
+    "expl": "Follow the lecture 35 of NPTEL lecture series"
+  },
+  {
+    "id": "ergo_w10_q09",
+    "asg": 10,
+    "q_num": 9,
+    "q": "The Multiple Resource Theory proposing distinct cognitive resource pools was introduced by:",
+    "opts": {
+      "A": "Wicken",
+      "B": "William",
+      "C": "Stanton",
+      "D": "Bush"
+    },
+    "ans": "A",
+    "topic": "Week 10: Workload & Situation Awareness (NASA-TLX & SAGAT)",
+    "expl": "Follow the lecture 33 of NPTEL lecture series"
+  },
+  {
+    "id": "ergo_w10_q10",
+    "asg": 10,
+    "q_num": 10,
+    "q": "In the 4D Multiple Resource Model, spatial and verbal speaking are categorized under which dimension?",
+    "opts": {
+      "A": "Perceptual",
+      "B": "Visual",
+      "C": "Processing",
+      "D": "Motor"
+    },
+    "ans": "C",
+    "topic": "Week 10: Workload & Situation Awareness (NASA-TLX & SAGAT)",
+    "expl": "Follow the lecture 33 of NPTEL lecture series"
+  },
+  {
+    "id": "ergo_w11_q01",
+    "asg": 11,
+    "q_num": 1,
+    "q": "In an evoked EEG configuration, presenting human faces in visual stimuli triggers which Event-Related Potential (ERP)?",
+    "opts": {
+      "A": "P100",
+      "B": "N170",
+      "C": "P300",
+      "D": "N100"
+    },
+    "ans": "B",
+    "topic": "Week 11: Mental Workload Measurement; Indirect Methods",
+    "expl": "Follow the lecture 36 of NPTEL lecture series"
+  },
+  {
+    "id": "ergo_w11_q02",
+    "asg": 11,
+    "q_num": 2,
+    "q": "What is the frequency band of Alpha (α) waves during free-running EEG recording?",
+    "opts": {
+      "A": "Between 8 to 13 Hz",
+      "B": "Less than 4 Hz",
+      "C": "Between 4 to 8 Hz",
+      "D": "Over 30 Hz"
+    },
+    "ans": "A",
+    "topic": "Week 11: Mental Workload Measurement; Indirect Methods",
+    "expl": "Follow the lecture 36 of NPTEL lecture series"
+  },
+  {
+    "id": "ergo_w11_q03",
+    "asg": 11,
+    "q_num": 3,
+    "q": "Which eye-tracking methodology places surface sensors around the eyes to record potential differences during ocular movement?",
+    "opts": {
+      "A": "Scleral search coil",
+      "B": "Infrared occulography",
+      "C": "Video occulography",
+      "D": "Electro occulography"
+    },
+    "ans": "D",
+    "topic": "Week 11: Mental Workload Measurement; Indirect Methods",
+    "expl": "Follow the lecture 37 of NPTEL lecture series"
+  },
+  {
+    "id": "ergo_w11_q04",
+    "asg": 11,
+    "q_num": 4,
+    "q": "Ear-EEG is considered an example of:",
+    "opts": {
+      "A": "Ambulatory EEG",
+      "B": "Beyond wearable EEG",
+      "C": "Research lab EEG",
+      "D": "Wearable EEG"
+    },
+    "ans": "B",
+    "topic": "Week 11: Mental Workload Measurement; Indirect Methods",
+    "expl": "Follow the lecture 36 of NPTEL lecture series"
+  },
+  {
+    "id": "ergo_w11_q05",
+    "asg": 11,
+    "q_num": 5,
+    "q": "Which eye movement metric refers to a spatial cluster formed by successive gaze fixations?",
+    "opts": {
+      "A": "Fixation",
+      "B": "Smooth pursuit",
+      "C": "Heat maps",
+      "D": "Scan path"
+    },
+    "ans": "A",
+    "topic": "Week 11: Mental Workload Measurement; Indirect Methods",
+    "expl": "Follow the lecture 37 of NPTEL lecture series"
+  },
+  {
+    "id": "ergo_w11_q06",
+    "asg": 11,
+    "q_num": 6,
+    "q": "Which EEG electrode category comes in both disposable and reusable configurations?",
+    "opts": {
+      "A": "Active electrode",
+      "B": "Dry electrode",
+      "C": "Passive wet electrode",
+      "D": "Hybrid electrode"
+    },
+    "ans": "C",
+    "topic": "Week 11: Mental Workload Measurement; Indirect Methods",
+    "expl": "Follow the lecture 36 of NPTEL lecture series"
+  },
+  {
+    "id": "ergo_w11_q07",
+    "asg": 11,
+    "q_num": 7,
+    "q": "The scan path metric is designed to measure the area of a stimulus that received maximum attention.",
+    "opts": {
+      "A": "True",
+      "B": "False"
+    },
+    "ans": "B",
+    "topic": "Week 11: Mental Workload Measurement; Indirect Methods",
+    "expl": "Follow the lecture 37 of NPTEL lecture series"
+  },
+  {
+    "id": "ergo_w11_q08",
+    "asg": 11,
+    "q_num": 8,
+    "q": "How many total recording electrodes are integrated into the EPOC Emotiv neuroheadset?",
+    "opts": {
+      "A": "12",
+      "B": "8",
+      "C": "18",
+      "D": "16"
+    },
+    "ans": "D",
+    "topic": "Week 11: Mental Workload Measurement; Indirect Methods",
+    "expl": "Follow the lecture 36 of NPTEL lecture series"
+  },
+  {
+    "id": "ergo_w11_q09",
+    "asg": 11,
+    "q_num": 9,
+    "q": "A visual region that attracts noticeably more ocular focus and fixation than other zones is termed an:",
+    "opts": {
+      "A": "Area of interest",
+      "B": "Fixation",
+      "C": "Saccade",
+      "D": "Regression"
+    },
+    "ans": "A",
+    "topic": "Week 11: Mental Workload Measurement; Indirect Methods",
+    "expl": "Follow the lecture 37 of NPTEL lecture series"
+  },
+  {
+    "id": "ergo_w11_q10",
+    "asg": 11,
+    "q_num": 10,
+    "q": "Which eye-tracking technique is most widely utilized in commercial applications?",
+    "opts": {
+      "A": "Electro occulography",
+      "B": "Video occulography",
+      "C": "Scleral search coil",
+      "D": "Infrared occulography"
+    },
+    "ans": "B",
+    "topic": "Week 11: Mental Workload Measurement; Indirect Methods",
+    "expl": "Follow the lecture 37 of NPTEL lecture series"
+  },
+  {
+    "id": "ergo_w12_q01",
+    "asg": 12,
+    "q_num": 1,
+    "q": "The Cognitive Reliability and Error Analysis Method (CREAM) represents which generation of Human Reliability Assessment (HRA)?",
+    "opts": {
+      "A": "1st generation",
+      "B": "3rd generation",
+      "C": "2nd generation",
+      "D": "4th generation"
+    },
+    "ans": "C",
+    "topic": "Week 12: Human Reliability & Environmental Factors",
+    "expl": "Follow the lecture 39 of NPTEL lecture series"
+  },
+  {
+    "id": "ergo_w12_q02",
+    "asg": 12,
+    "q_num": 2,
+    "q": "How many Error Producing Conditions (EPCs) are identified in the HEART framework?",
+    "opts": {
+      "A": "35",
+      "B": "38",
+      "C": "36",
+      "D": "37"
+    },
+    "ans": "B",
+    "topic": "Week 12: Human Reliability & Environmental Factors",
+    "expl": "Follow the lecture 38 of NPTEL lecture series"
+  },
+  {
+    "id": "ergo_w12_q03",
+    "asg": 12,
+    "q_num": 3,
+    "q": "When two or more light sources emit identical lumens but have different spatial intensity distributions, this describes:",
+    "opts": {
+      "A": "Luminance",
+      "B": "Luminous flux",
+      "C": "Illumination",
+      "D": "Luminous intensity"
+    },
+    "ans": "D",
+    "topic": "Week 12: Human Reliability & Environmental Factors",
+    "expl": "Follow the lecture 41 of NPTEL lecture series"
+  },
+  {
+    "id": "ergo_w12_q04",
+    "asg": 12,
+    "q_num": 4,
+    "q": "Applying the CREAM technique requires no foundational human factors background or expertise.",
+    "opts": {
+      "A": "False",
+      "B": "True"
+    },
+    "ans": "A",
+    "topic": "Week 12: Human Reliability & Environmental Factors",
+    "expl": "Follow the lecture 39 of NPTEL lecture series"
+  },
+  {
+    "id": "ergo_w12_q05",
+    "asg": 12,
+    "q_num": 5,
+    "q": "What is the third step in the Human Error Assessment and Reduction Technique (HEART)?",
+    "opts": {
+      "A": "Identify the error producing conditions (EPCs)",
+      "B": "Determine the assessed proportion of affect (APOA)",
+      "C": "Consider error reduction measures",
+      "D": "Assign normal human error probability"
+    },
+    "ans": "A",
+    "topic": "Week 12: Human Reliability & Environmental Factors",
+    "expl": "Follow the lecture 38 of NPTEL lecture series"
+  },
+  {
+    "id": "ergo_w12_q06",
+    "asg": 12,
+    "q_num": 6,
+    "q": "In subjective acoustic perception, a neutral sound is typically audible at approximately:",
+    "opts": {
+      "A": "Less than 10 dB",
+      "B": "More than 20 dB",
+      "C": "Equivalent to 15 dB",
+      "D": "At 5 dB"
+    },
+    "ans": "C",
+    "topic": "Week 12: Human Reliability & Environmental Factors",
+    "expl": "Follow the lecture 41 of NPTEL lecture series"
+  },
+  {
+    "id": "ergo_w12_q07",
+    "asg": 12,
+    "q_num": 7,
+    "q": "The HEART technique imposes minimal assessor resource demands and offers flexible application.",
+    "opts": {
+      "A": "True",
+      "B": "False"
+    },
+    "ans": "A",
+    "topic": "Week 12: Human Reliability & Environmental Factors",
+    "expl": "Follow the lecture 38 of NPTEL lecture series"
+  },
+  {
+    "id": "ergo_w12_q08",
+    "asg": 12,
+    "q_num": 8,
+    "q": "In CREAM, what is the nominal error probability interval corresponding to Tactical Control Mode?",
+    "opts": {
+      "A": "0.5E – 5 < p < 1E – 2",
+      "B": "1E – 2 < p < 0.5E0",
+      "C": "1E – 3 < p < 1E – 1",
+      "D": "1E – 1 < p < 1E0"
+    },
+    "ans": "B",
+    "topic": "Week 12: Human Reliability & Environmental Factors",
+    "expl": "Follow the lecture 39 of NPTEL lecture series"
+  },
+  {
+    "id": "ergo_w12_q09",
+    "asg": 12,
+    "q_num": 9,
+    "q": "Numbness is an established physiological symptom of whole-body vibration.",
+    "opts": {
+      "A": "True",
+      "B": "False"
+    },
+    "ans": "B",
+    "topic": "Week 12: Human Reliability & Environmental Factors",
+    "expl": "Follow the lecture 41 of NPTEL lecture series"
+  },
+  {
+    "id": "ergo_w12_q10",
+    "asg": 12,
+    "q_num": 10,
+    "q": "Ambient air temperature is directly measured using which instrument?",
+    "opts": {
+      "A": "Alcohol-filled thermometer",
+      "B": "Electronic thermometer",
+      "C": "Globe thermometer",
+      "D": "Ambient temperature sensor"
+    },
+    "ans": "A",
+    "topic": "Week 12: Human Reliability & Environmental Factors",
+    "expl": "Follow the lecture 40 of NPTEL lecture series"
+  }
+]

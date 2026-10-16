@@ -1,0 +1,1572 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Ergonomics MCQ Practice</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🧠</text></svg>">
+<style>
+:root {
+  --bg: #f6f7f9;
+  --card: #ffffff;
+  --card-hover: #fafbfc;
+  --ink: #1c2230;
+  --mute: #6b7385;
+  --line: #e1e4ea;
+  --accent: #2f5bea;
+  --accent-hover: #2449c4;
+  --accent-soft: rgba(47, 91, 234, 0.08);
+  --ok: #1a8f4c;
+  --okbg: #e4f5ea;
+  --okborder: #8cd4a9;
+  --bad: #c93232;
+  --badbg: #fbe8e8;
+  --badborder: #f19e9e;
+  --warn: #b7791f;
+  --warnbg: #fef7e7;
+  --star: #f59e0b;
+  --shadow: 0 4px 14px rgba(0,0,0,0.05);
+  --radius: 12px;
+}
+
+[data-theme="dark"] {
+  --bg: #12151c;
+  --card: #1b1f2a;
+  --card-hover: #222735;
+  --ink: #e8ebf2;
+  --mute: #97a0b3;
+  --line: #2c3242;
+  --accent: #6c8cff;
+  --accent-hover: #5477ff;
+  --accent-soft: rgba(108, 140, 255, 0.12);
+  --ok: #4cc27f;
+  --okbg: #153221;
+  --okborder: #216d41;
+  --bad: #ff6b6b;
+  --badbg: #3a1c1f;
+  --badborder: #7f2b32;
+  --warn: #e0a84a;
+  --warnbg: #2f2510;
+  --star: #fbbf24;
+  --shadow: 0 4px 14px rgba(0,0,0,0.25);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #12151c;
+    --card: #1b1f2a;
+    --card-hover: #222735;
+    --ink: #e8ebf2;
+    --mute: #97a0b3;
+    --line: #2c3242;
+    --accent: #6c8cff;
+    --accent-hover: #5477ff;
+    --accent-soft: rgba(108, 140, 255, 0.12);
+    --ok: #4cc27f;
+    --okbg: #153221;
+    --okborder: #216d41;
+    --bad: #ff6b6b;
+    --badbg: #3a1c1f;
+    --badborder: #7f2b32;
+    --warn: #e0a84a;
+    --warnbg: #2f2510;
+    --star: #fbbf24;
+    --shadow: 0 4px 14px rgba(0,0,0,0.25);
+  }
+}
+
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font: 16px/1.55 system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+  transition: background-color 0.2s ease, color 0.2s ease;
+  min-height: 100vh;
+}
+
+main {
+  max-width: 820px;
+  margin: 0 auto;
+  padding: 24px 18px 80px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.brand-icon {
+  font-size: 28px;
+  line-height: 1;
+}
+
+h1 {
+  font-size: 21px;
+  font-weight: 700;
+  margin: 0;
+  letter-spacing: -0.01em;
+}
+
+.subhead {
+  font-size: 13px;
+  color: var(--mute);
+  margin-top: 2px;
+}
+
+nav {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 20px;
+  margin-bottom: 16px;
+  box-shadow: var(--shadow);
+  transition: border-color 0.2s;
+}
+
+button {
+  font: inherit;
+  font-size: 14px;
+  cursor: pointer;
+  border: 1px solid var(--line);
+  background: var(--card);
+  color: var(--ink);
+  padding: 8px 14px;
+  border-radius: 8px;
+  font-weight: 500;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  transition: all 0.15s ease;
+}
+
+button:hover {
+  border-color: var(--accent);
+  background: var(--card-hover);
+}
+
+button.primary {
+  background: var(--accent);
+  color: #ffffff !important;
+  border-color: var(--accent);
+}
+
+button.primary:hover {
+  background: var(--accent-hover);
+  border-color: var(--accent-hover);
+}
+
+button.danger {
+  color: var(--bad);
+  border-color: var(--line);
+}
+
+button.danger:hover {
+  background: var(--badbg);
+  border-color: var(--bad);
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.btn-sm {
+  padding: 5px 12px;
+  font-size: 13px;
+  border-radius: 6px;
+}
+
+.nav-btn.active {
+  background: var(--accent-soft);
+  color: var(--accent);
+  border-color: var(--accent);
+  font-weight: 600;
+}
+
+.badge {
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 700;
+  padding: 1px 7px;
+  border-radius: 12px;
+  background: var(--accent);
+  color: #fff;
+  margin-left: 4px;
+}
+
+.badge.warn {
+  background: var(--bad);
+}
+
+/* Stats */
+.stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+  gap: 12px;
+  margin-bottom: 18px;
+}
+
+.stat {
+  text-align: center;
+  padding: 14px 10px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: var(--card);
+  box-shadow: 0 2px 6px rgba(0,0,0,0.02);
+}
+
+.stat b {
+  display: block;
+  font-size: 26px;
+  font-weight: 700;
+  color: var(--ink);
+  line-height: 1.2;
+}
+
+.stat span {
+  color: var(--mute);
+  font-size: 13px;
+  font-weight: 500;
+}
+
+/* Modes Grid */
+.modes {
+  display: grid;
+  gap: 10px;
+  margin-top: 14px;
+}
+
+.mode {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+  padding: 14px 16px;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.mode div {
+  flex: 1;
+}
+
+.mode b {
+  display: block;
+  font-size: 15px;
+  margin-bottom: 2px;
+}
+
+.mode small {
+  color: var(--mute);
+  font-size: 13px;
+  font-weight: normal;
+  display: block;
+}
+
+.mode.primary small {
+  color: rgba(255, 255, 255, 0.88);
+}
+
+/* Question Area */
+.meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--mute);
+  font-size: 13px;
+  margin-bottom: 10px;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.meta-tags {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.bar {
+  height: 8px;
+  background: var(--line);
+  border-radius: 4px;
+  overflow: hidden;
+  margin-bottom: 18px;
+}
+
+.bar i {
+  display: block;
+  height: 100%;
+  background: var(--accent);
+  transition: width 0.3s ease;
+}
+
+.q {
+  font-size: 19px;
+  font-weight: 600;
+  line-height: 1.45;
+  margin: 6px 0 18px;
+  color: var(--ink);
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+.opts {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.opt {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  width: 100%;
+  text-align: left;
+  padding: 13px 16px;
+  border-radius: 10px;
+  font-size: 15.5px;
+  line-height: 1.45;
+  border: 1px solid var(--line);
+  background: var(--card);
+  color: var(--ink);
+  transition: all 0.15s ease;
+}
+
+.opt:hover:not(:disabled) {
+  border-color: var(--accent);
+  background: var(--accent-soft);
+  transform: translateY(-1px);
+}
+
+.opt .k {
+  font-weight: 700;
+  color: var(--mute);
+  min-width: 24px;
+  font-size: 14px;
+  padding-top: 1px;
+}
+
+.opt .text {
+  flex: 1;
+}
+
+.opt .icon {
+  margin-left: auto;
+  font-size: 18px;
+  font-weight: 700;
+  display: none;
+}
+
+.opt.right {
+  background: var(--okbg) !important;
+  border-color: var(--okborder) !important;
+  color: var(--ink) !important;
+}
+
+.opt.right .k {
+  color: var(--ok) !important;
+}
+
+.opt.right .icon {
+  display: inline-block;
+  color: var(--ok);
+}
+
+.opt.wrong {
+  background: var(--badbg) !important;
+  border-color: var(--badborder) !important;
+  color: var(--ink) !important;
+}
+
+.opt.wrong .k {
+  color: var(--bad) !important;
+}
+
+.opt.wrong .icon {
+  display: inline-block;
+  color: var(--bad);
+}
+
+.expl {
+  margin-top: 16px;
+  padding: 14px 16px;
+  border-left: 4px solid var(--accent);
+  background: var(--accent-soft);
+  border-radius: 0 8px 8px 0;
+  font-size: 14.5px;
+  line-height: 1.5;
+}
+
+.expl b {
+  color: var(--accent);
+  display: block;
+  margin-bottom: 4px;
+}
+
+.tag {
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 2px 9px;
+  border-radius: 99px;
+  border: 1px solid var(--line);
+  color: var(--mute);
+}
+
+.tag.topic {
+  background: var(--accent-soft);
+  color: var(--accent);
+  border-color: transparent;
+  font-weight: 600;
+}
+
+.tag.weak {
+  color: var(--bad);
+  border-color: var(--badborder);
+  background: var(--badbg);
+}
+
+.tag.ok {
+  color: var(--ok);
+  border-color: var(--okborder);
+  background: var(--okbg);
+}
+
+.tag.star {
+  color: var(--star);
+  border-color: var(--star);
+  background: var(--warnbg);
+}
+
+/* Tables */
+.table-wrap {
+  overflow-x: auto;
+  margin-top: 12px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+td, th {
+  padding: 10px 8px;
+  border-bottom: 1px solid var(--line);
+  text-align: left;
+  vertical-align: middle;
+}
+
+th {
+  color: var(--mute);
+  font-weight: 600;
+  font-size: 13px;
+}
+
+tr:hover td {
+  background: var(--card-hover);
+}
+
+/* Forms */
+textarea {
+  width: 100%;
+  min-height: 220px;
+  font: 13px/1.5 Consolas, Monaco, monospace;
+  background: var(--bg);
+  color: var(--ink);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 12px;
+  resize: vertical;
+}
+
+select, input[type="text"], input[type="search"] {
+  font: inherit;
+  font-size: 14px;
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: 1px solid var(--line);
+  background: var(--card);
+  color: var(--ink);
+}
+
+.row {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.mute { color: var(--mute); }
+.pct { font-weight: 700; color: var(--accent); }
+
+/* Star Button */
+.star-btn {
+  background: transparent;
+  border: none;
+  font-size: 20px;
+  padding: 4px 6px;
+  cursor: pointer;
+  color: var(--mute);
+  line-height: 1;
+  transition: transform 0.15s, color 0.15s;
+}
+
+.star-btn:hover {
+  transform: scale(1.15);
+  color: var(--star);
+  background: transparent;
+}
+
+.star-btn.starred {
+  color: var(--star);
+}
+
+/* Result Card */
+.score-circle {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  background: var(--accent-soft);
+  border: 4px solid var(--accent);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 10px auto 16px;
+}
+
+.score-circle .score-num {
+  font-size: 28px;
+  font-weight: 800;
+  color: var(--accent);
+  line-height: 1;
+}
+
+.score-circle .score-label {
+  font-size: 12px;
+  color: var(--mute);
+  margin-top: 4px;
+}
+
+.keyboard-hint {
+  font-size: 11.5px;
+  color: var(--mute);
+  display: flex;
+  gap: 12px;
+  margin-top: 14px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.kbd {
+  display: inline-block;
+  padding: 1px 5px;
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  background: var(--card);
+  box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+  font-family: monospace;
+}
+</style>
+</head>
+<body>
+<main>
+<header>
+  <div class="brand">
+    <div class="brand-icon">🔬</div>
+    <div>
+      <h1>Ergonomics MCQ Practice</h1>
+      <div class="subhead">Ergonomics Research Techniques • NPTEL IIT Guwahati • 120 Questions</div>
+    </div>
+  </div>
+  <nav>
+    <button class="nav-btn" data-go="home">🏠 Home</button>
+    <button class="nav-btn" data-go="weak">⚠️ Weak <span id="weakBadge" class="badge warn" style="display:none">0</span></button>
+    <button class="nav-btn" data-go="starred">⭐ Starred <span id="starBadge" class="badge" style="display:none">0</span></button>
+    <button class="nav-btn" data-go="manage">⚙️ Add / Manage</button>
+    <button id="themeToggle" title="Toggle theme">🌓</button>
+  </nav>
+</header>
+<div id="view"></div>
+</main>
+
+<script>
+const KEY_Q = 'ergo.questions.v1';
+const KEY_S = 'ergo.stats.v1';
+const KEY_STARS = 'ergo.stars.v1';
+const KEY_THEME = 'ergo.theme.v1';
+
+const DEFAULT_QUESTIONS = [{"id": "ergo_w01_q01", "asg": 1, "q_num": 1, "q": "Systems ergonomics view focusing on the optimization of the interactions between the human body and the computer or a machine can come under?", "opts": {"A": "Product ergonomics", "B": "Production ergonomics", "C": "Macro ergonomics", "D": "Micro ergonomics"}, "ans": "D", "topic": "Week 01: Systems Ergonomics & Musculoskeletal Tools", "expl": ""}, {"id": "ergo_w01_q02", "asg": 1, "q_num": 2, "q": "Identify the option that is not the role of an ergonomist.", "opts": {"A": "Profit generation", "B": "Human capability and limitations", "C": "Environmental factors", "D": "None of these"}, "ans": "A", "topic": "Week 01: Systems Ergonomics & Musculoskeletal Tools", "expl": ""}, {"id": "ergo_w01_q03", "asg": 1, "q_num": 3, "q": "Ergonomics tools and techniques, which are used for understanding a system, will come under which division?", "opts": {"A": "Analytical", "B": "Evaluative", "C": "Analysis and evaluation", "D": "None of these"}, "ans": "A", "topic": "Week 01: Systems Ergonomics & Musculoskeletal Tools", "expl": ""}, {"id": "ergo_w01_q04", "asg": 1, "q_num": 4, "q": "Which of the following is not a main assessment method used in studying musculoskeletal injuries?", "opts": {"A": "PLIBLE", "B": "RULA", "C": "NIBOSH discomfort survey", "D": "Dutch Musculoskeletal Survey (DMS)"}, "ans": "B", "topic": "Week 01: Systems Ergonomics & Musculoskeletal Tools", "expl": ""}, {"id": "ergo_w01_q05", "asg": 1, "q_num": 5, "q": "In PLIBEL, the assessments are focused on which factors?", "opts": {"A": "Tasks that are most frequently performed in working hours", "B": "Tasks that can be observed as stressful to the musculoskeletal system", "C": "Tasks that are frequently performed and observed to be stressful", "D": "None of these"}, "ans": "C", "topic": "Week 01: Systems Ergonomics & Musculoskeletal Tools", "expl": ""}, {"id": "ergo_w01_q06", "asg": 1, "q_num": 6, "q": "In a Musculoskeletal discomfort NIOSH assessment process, the rating of the problem is rated on.", "opts": {"A": "Duration", "B": "Frequency", "C": "Intensity", "D": "All of these"}, "ans": "D", "topic": "Week 01: Systems Ergonomics & Musculoskeletal Tools", "expl": ""}, {"id": "ergo_w01_q07", "asg": 1, "q_num": 7, "q": "The Lifestyle of the worker is not considered in the Dutch Musculoskeletal Questionnaire (DMQ)", "opts": {"A": "True", "B": "False"}, "ans": "B", "topic": "Week 01: Systems Ergonomics & Musculoskeletal Tools", "expl": ""}, {"id": "ergo_w01_q08", "asg": 1, "q_num": 8, "q": "The Dutch Musculoskeletal Questionnaire (DMQ) has to be directly filled by the subject(worker)", "opts": {"A": "True", "B": "False"}, "ans": "A", "topic": "Week 01: Systems Ergonomics & Musculoskeletal Tools", "expl": ""}, {"id": "ergo_w01_q09", "asg": 1, "q_num": 9, "q": "The Dutch Musculoskeletal Questionnaire (DMQ) can provide", "opts": {"A": "Broad overview of the risk factors", "B": "Solution of the problems identified", "C": "Both overview and solutions", "D": "None of these"}, "ans": "A", "topic": "Week 01: Systems Ergonomics & Musculoskeletal Tools", "expl": ""}, {"id": "ergo_w01_q10", "asg": 1, "q_num": 10, "q": "Optimization of the relationships in the system \"Man – Technology – Organization\" can come under?", "opts": {"A": "Product ergonomics", "B": "Production ergonomics", "C": "Macro ergonomics", "D": "Micro ergonomics"}, "ans": "C", "topic": "Week 01: Systems Ergonomics & Musculoskeletal Tools", "expl": ""}, {"id": "ergo_w02_q01", "asg": 2, "q_num": 1, "q": "In the Job Strain Index (JSI), what body parts are under consideration for the assessment process?", "opts": {"A": "Hand, wrist, and elbow", "B": "Upper body", "C": "Entire body", "D": "None of these"}, "ans": "A", "topic": "Week 02: Job Strain Index (JSI)", "expl": ""}, {"id": "ergo_w02_q02", "asg": 2, "q_num": 2, "q": "In the Job Strain Index (JSI), the left and right sides can be assessed independently.", "opts": {"A": "True", "B": "False"}, "ans": "A", "topic": "Week 02: Job Strain Index (JSI)", "expl": ""}, {"id": "ergo_w02_q03", "asg": 2, "q_num": 3, "q": "What are the elements that are not considered for calculating JSI score?", "opts": {"A": "Duration of the task", "B": "Hand/wrist posture", "C": "Duration of exertion", "D": "None of these"}, "ans": "D", "topic": "Week 02: Job Strain Index (JSI)", "expl": ""}, {"id": "ergo_w02_q04", "asg": 2, "q_num": 4, "q": "Which factors are considered when rating the Hand/wrist Posture (HP) when calculating the JSI score?", "opts": {"A": "Wrist extension and flexion", "B": "Ulnar deviation", "C": "Both wrist movements and ulnar deviation", "D": "None of these"}, "ans": "C", "topic": "Week 02: Job Strain Index (JSI)", "expl": ""}, {"id": "ergo_w02_q05", "asg": 2, "q_num": 5, "q": "There are a limited number of postures that are considered in the OWAS posture assessment.", "opts": {"A": "True", "B": "False"}, "ans": "A", "topic": "Week 02: Job Strain Index (JSI)", "expl": ""}, {"id": "ergo_w02_q06", "asg": 2, "q_num": 6, "q": "What are the factors that are not considered in OWAS posture assessment?", "opts": {"A": "Duration of posture", "B": "Elbow and wrist posture", "C": "Load lifted", "D": "Both duration and elbow/wrist posture"}, "ans": "D", "topic": "Week 02: Job Strain Index (JSI)", "expl": ""}, {"id": "ergo_w02_q07", "asg": 2, "q_num": 7, "q": "RULA assessment can be performed when the worker is.", "opts": {"A": "Standing without moving about", "B": "Seated", "C": "Both static standing and seating", "D": "None of these"}, "ans": "C", "topic": "Week 02: Job Strain Index (JSI)", "expl": ""}, {"id": "ergo_w02_q08", "asg": 2, "q_num": 8, "q": "Musculoskeletal load on the present and the modified workstation design can be compared with the help of RULA", "opts": {"A": "True", "B": "False"}, "ans": "A", "topic": "Week 02: Job Strain Index (JSI)", "expl": ""}, {"id": "ergo_w02_q09", "asg": 2, "q_num": 9, "q": "What is the total number of steps present in RULA analysis?", "opts": {"A": "14", "B": "15", "C": "16", "D": "None of these"}, "ans": "B", "topic": "Week 02: Job Strain Index (JSI)", "expl": ""}, {"id": "ergo_w02_q10", "asg": 2, "q_num": 10, "q": "What is the total number of steps present in REBA analysis?", "opts": {"A": "12", "B": "13", "C": "14", "D": "None of these"}, "ans": "B", "topic": "Week 02: Job Strain Index (JSI)", "expl": ""}, {"id": "ergo_w03_q01", "asg": 3, "q_num": 1, "q": "What are the assessments that are not carried out using MAC?", "opts": {"A": "Carrying operation", "B": "Lifting operation", "C": "Team handling operation", "D": "None of these"}, "ans": "D", "topic": "Week 03: Manual Handling Assessment Charts (MAC)", "expl": ""}, {"id": "ergo_w03_q02", "asg": 3, "q_num": 2, "q": "The use of MAC is not appropriate for?", "opts": {"A": "Carrying tasks", "B": "Manual pulling and pushing operations", "C": "Both carrying and manual pulling/pushing", "D": "None of these"}, "ans": "B", "topic": "Week 03: Manual Handling Assessment Charts (MAC)", "expl": ""}, {"id": "ergo_w03_q03", "asg": 3, "q_num": 3, "q": "Which of the following risk factors are not rated under the lifting operations in the MAC?", "opts": {"A": "Carry distance", "B": "Load weight/frequency", "C": "Grip on the load", "D": "None of these"}, "ans": "A", "topic": "Week 03: Manual Handling Assessment Charts (MAC)", "expl": ""}, {"id": "ergo_w03_q04", "asg": 3, "q_num": 4, "q": "Which of the following risk factors are rated under the carrying operations in the MAC?", "opts": {"A": "Vertical lift zones", "B": "Load weight/frequency", "C": "Co-ordination", "D": "None of these"}, "ans": "B", "topic": "Week 03: Manual Handling Assessment Charts (MAC)", "expl": ""}, {"id": "ergo_w03_q05", "asg": 3, "q_num": 5, "q": "In MAC, the risk factors related to communication, co-ordination, and control are not rated in?", "opts": {"A": "Carrying operations", "B": "Lifting operations", "C": "Team handling operations", "D": "Both lifting and carrying operations"}, "ans": "D", "topic": "Week 03: Manual Handling Assessment Charts (MAC)", "expl": ""}, {"id": "ergo_w03_q06", "asg": 3, "q_num": 6, "q": "In MAC, \"P = PURPLE\" is used to represent which level of risk?", "opts": {"A": "Low", "B": "Medium", "C": "High", "D": "Unacceptable"}, "ans": "D", "topic": "Week 03: Manual Handling Assessment Charts (MAC)", "expl": ""}, {"id": "ergo_w03_q07", "asg": 3, "q_num": 7, "q": "What all ways of manipulating load can be considered as manual handling?", "opts": {"A": "Lifting and lowering", "B": "Pushing and pulling", "C": "Moving and carrying", "D": "All of these"}, "ans": "D", "topic": "Week 03: Manual Handling Assessment Charts (MAC)", "expl": ""}, {"id": "ergo_w03_q08", "asg": 3, "q_num": 8, "q": "When carrying a load, the risk can be minimized when the load is held against the body.", "opts": {"A": "True", "B": "False"}, "ans": "A", "topic": "Week 03: Manual Handling Assessment Charts (MAC)", "expl": ""}, {"id": "ergo_w03_q09", "asg": 3, "q_num": 9, "q": "What is the acceptable range of weight that can be handled by men in seating posture", "opts": {"A": "4", "B": "5", "C": "6", "D": "None of these"}, "ans": "B", "topic": "Week 03: Manual Handling Assessment Charts (MAC)", "expl": ""}, {"id": "ergo_w03_q10", "asg": 3, "q_num": 10, "q": "What are the various aspects considered in the Quick Exposure Checklist (QEC)?", "opts": {"A": "Back", "B": "Stress", "C": "Vibration", "D": "All of these"}, "ans": "D", "topic": "Week 03: Manual Handling Assessment Charts (MAC)", "expl": ""}, {"id": "ergo_w04_q01", "asg": 4, "q_num": 1, "q": "The position of the body when the hands are directly in front of the body and there is minimal twisting at the legs, torso, or shoulders can be termed as?", "opts": {"A": "Neutral body position", "B": "Natural body position", "C": "Active body position", "D": "None of these"}, "ans": "A", "topic": "Week 04: Postural Assessment (RULA & REBA)", "expl": ""}, {"id": "ergo_w04_q02", "asg": 4, "q_num": 2, "q": "In the NIOSH Lifting equation, the absolute value of the difference between the vertical height at the destination and origin of the lift can be termed as?", "opts": {"A": "Vertical lift", "B": "Vertical travel distance", "C": "Horizontal lift", "D": "None of these"}, "ans": "B", "topic": "Week 04: Postural Assessment (RULA & REBA)", "expl": ""}, {"id": "ergo_w04_q03", "asg": 4, "q_num": 3, "q": "In the NIOSH Lifting equation, the Lifting task can be defined as the act of mechanically grasping an object of definable size and mass with two hands and vertically moving the object with mechanical assistance.", "opts": {"A": "True", "B": "False"}, "ans": "B", "topic": "Week 04: Postural Assessment (RULA & REBA)", "expl": ""}, {"id": "ergo_w04_q04", "asg": 4, "q_num": 4, "q": "The distance of the hands away from the mid-point between the ankles, is called as?", "opts": {"A": "Horizontal location", "B": "Vertical location", "C": "Both horizontal and vertical", "D": "None of these"}, "ans": "A", "topic": "Week 04: Postural Assessment (RULA & REBA)", "expl": ""}, {"id": "ergo_w04_q05", "asg": 4, "q_num": 5, "q": "In the NIOSH Lifting equation, the distance of the hands above the floor is called?", "opts": {"A": "Horizontal location", "B": "Vertical location", "C": "Both horizontal and vertical", "D": "None of these"}, "ans": "B", "topic": "Week 04: Postural Assessment (RULA & REBA)", "expl": ""}, {"id": "ergo_w04_q06", "asg": 4, "q_num": 6, "q": "_______ is defined for a specific set of task conditions as the weight of the load that nearly all healthy workers could perform over a substantial period of time without an increased risk of developing lifting-related low back pain.", "opts": {"A": "Recommended Weight Limit (RWL)", "B": "Lifting Index (LI)", "C": "NIOSH", "D": "None of these"}, "ans": "A", "topic": "Week 04: Postural Assessment (RULA & REBA)", "expl": ""}, {"id": "ergo_w04_q07", "asg": 4, "q_num": 7, "q": "A relative estimate of the level of physical stress associated with a particular manual lifting task is given by?", "opts": {"A": "Recommended Weight Limit (RWL)", "B": "Lifting Index (LI)", "C": "NIOSH", "D": "None of these"}, "ans": "B", "topic": "Week 04: Postural Assessment (RULA & REBA)", "expl": ""}, {"id": "ergo_w04_q08", "asg": 4, "q_num": 8, "q": "The Rodgers muscle fatigue analysis can be used for evaluating production tasks having fewer than 12 to 15 repetitions per minute with the same muscle groups.", "opts": {"A": "True", "B": "False"}, "ans": "A", "topic": "Week 04: Postural Assessment (RULA & REBA)", "expl": ""}, {"id": "ergo_w04_q09", "asg": 4, "q_num": 9, "q": "In the Borg RPE scale, the correlation between the scale and the heart rate can be represented as?", "opts": {"A": "Heart rate = 10 x Scale value", "B": "Scale value = 10 x heart rate", "C": "Heart rate = 100 x Scale value", "D": "Heart rate = 0.1 x Scale value"}, "ans": "A", "topic": "Week 04: Postural Assessment (RULA & REBA)", "expl": ""}, {"id": "ergo_w04_q10", "asg": 4, "q_num": 10, "q": "In Rodgers muscle fatigue analysis, a category of _____ for Effort level, Continuous effort duration, or Frequency is automatically Very High (VH).", "opts": {"A": "1", "B": "2", "C": "3", "D": "4"}, "ans": "D", "topic": "Week 04: Postural Assessment (RULA & REBA)", "expl": ""}, {"id": "ergo_w05_q01", "asg": 5, "q_num": 1, "q": "Snooks table lacks sensitivity to the bending and twisting motions that are often associated with the onset of low back pain.", "opts": {"A": "True", "B": "False"}, "ans": "A", "topic": "Week 05: Snook Tables & Manual Material Handling", "expl": ""}, {"id": "ergo_w05_q02", "asg": 5, "q_num": 2, "q": "Which of the following kinds of tasks are not addressed in the Snooks table?", "opts": {"A": "Lifting", "B": "Carrying", "C": "Pushing", "D": "None of these"}, "ans": "D", "topic": "Week 05: Snook Tables & Manual Material Handling", "expl": ""}, {"id": "ergo_w05_q03", "asg": 5, "q_num": 3, "q": "The Lumber Motion Monitor can be used to measure.", "opts": {"A": "Instantaneous position of spine", "B": "Pelvis location with respect to spine", "C": "Velocity and acceleration of the spine", "D": "All of these"}, "ans": "D", "topic": "Week 05: Snook Tables & Manual Material Handling", "expl": ""}, {"id": "ergo_w05_q04", "asg": 5, "q_num": 4, "q": "The Lower Back Pain (LBP) risk model will also help in assessing the potential risk of injuries to other body parts like the wrist and knee.", "opts": {"A": "True", "B": "False"}, "ans": "B", "topic": "Week 05: Snook Tables & Manual Material Handling", "expl": ""}, {"id": "ergo_w05_q05", "asg": 5, "q_num": 5, "q": "Which of the trunk motion parameters is measured in the Lumber Motion Monitor?", "opts": {"A": "Maximum sagittal flexion position", "B": "Maximum lateral velocity", "C": "Average twisting velocity", "D": "All of these"}, "ans": "D", "topic": "Week 05: Snook Tables & Manual Material Handling", "expl": ""}, {"id": "ergo_w05_q06", "asg": 5, "q_num": 6, "q": "Which of the following body parts are considered while identifying the Posture factor (Pf) in OCRA analysis?", "opts": {"A": "Elbow and wrist", "B": "Shoulder", "C": "Hand", "D": "All of these"}, "ans": "D", "topic": "Week 05: Snook Tables & Manual Material Handling", "expl": ""}, {"id": "ergo_w05_q07", "asg": 5, "q_num": 7, "q": "Borg 10-category scale is needed in OCRA.", "opts": {"A": "True", "B": "False"}, "ans": "A", "topic": "Week 05: Snook Tables & Manual Material Handling", "expl": ""}, {"id": "ergo_w05_q08", "asg": 5, "q_num": 8, "q": "What is the minimum duration of the task that is performed in a total day so that the HARM can be applied?", "opts": {"A": "10 minutes", "B": "1 minute", "C": "10 hours", "D": "1 hour"}, "ans": "D", "topic": "Week 05: Snook Tables & Manual Material Handling", "expl": ""}, {"id": "ergo_w05_q09", "asg": 5, "q_num": 9, "q": "All hand and arm tasks, including computer work, can be assessed through the HARM tool.", "opts": {"A": "True", "B": "False"}, "ans": "B", "topic": "Week 05: Snook Tables & Manual Material Handling", "expl": ""}, {"id": "ergo_w05_q10", "asg": 5, "q_num": 10, "q": "HARM can be applicable on tasks that involve one handed force exertion of less than ___kg.", "opts": {"A": "3", "B": "5", "C": "6", "D": "8"}, "ans": "C", "topic": "Week 05: Snook Tables & Manual Material Handling", "expl": ""}, {"id": "ergo_w06_q01", "asg": 6, "q_num": 1, "q": "What are the additional factors that are considered in the ART tool?", "opts": {"A": "Work pace", "B": "Brakes", "C": "Hand Grip", "D": "Both work pace and brakes"}, "ans": "D", "topic": "Week 06: Assessment of Repetitive Tasks (ART)", "expl": ""}, {"id": "ergo_w06_q02", "asg": 6, "q_num": 2, "q": "What are the factors that are not considered in Stage C: Awkward postures of ART tool?", "opts": {"A": "Hand/finger grip", "B": "Wrist posture", "C": "Back posture", "D": "None of these"}, "ans": "D", "topic": "Week 06: Assessment of Repetitive Tasks (ART)", "expl": ""}, {"id": "ergo_w06_q03", "asg": 6, "q_num": 3, "q": "What are the factors that are considered in Stage A: Frequency and repetition of movements of ART tool?", "opts": {"A": "Arm movements", "B": "Repetition", "C": "Both arm movement and repetition", "D": "Hand/finger grip"}, "ans": "C", "topic": "Week 06: Assessment of Repetitive Tasks (ART)", "expl": ""}, {"id": "ergo_w06_q04", "asg": 6, "q_num": 4, "q": "The RAPP tool can be used for assessing the lifting task?", "opts": {"A": "True", "B": "False"}, "ans": "B", "topic": "Week 06: Assessment of Repetitive Tasks (ART)", "expl": ""}, {"id": "ergo_w06_q05", "asg": 6, "q_num": 5, "q": "Which of the following factors are considered in the RAPP tool?", "opts": {"A": "Flore surface", "B": "Condition of the equipment", "C": "Hand grip", "D": "All of these"}, "ans": "D", "topic": "Week 06: Assessment of Repetitive Tasks (ART)", "expl": ""}, {"id": "ergo_w06_q06", "asg": 6, "q_num": 6, "q": "The MAPO tool was initially developed for addressing which files?", "opts": {"A": "Industrial workers", "B": "Hospital and nursing home", "C": "Both industry and hospital", "D": "None of these"}, "ans": "B", "topic": "Week 06: Assessment of Repetitive Tasks (ART)", "expl": ""}, {"id": "ergo_w06_q07", "asg": 6, "q_num": 7, "q": "Which of the following factors are not considered in the MAPO tool?", "opts": {"A": "Training factor", "B": "Minor aids factor", "C": "Environmental factor", "D": "Co-ordination factor"}, "ans": "D", "topic": "Week 06: Assessment of Repetitive Tasks (ART)", "expl": ""}, {"id": "ergo_w06_q08", "asg": 6, "q_num": 8, "q": "What are the various parts of the data sheet that are required to calculate the MAPO index?", "opts": {"A": "Interviews", "B": "On-site inspections", "C": "Both interviews and on-site inspections", "D": "None of these"}, "ans": "C", "topic": "Week 06: Assessment of Repetitive Tasks (ART)", "expl": ""}, {"id": "ergo_w06_q09", "asg": 6, "q_num": 9, "q": "Training factors are specifically considered in the MAPO tool.", "opts": {"A": "True", "B": "False"}, "ans": "A", "topic": "Week 06: Assessment of Repetitive Tasks (ART)", "expl": ""}, {"id": "ergo_w06_q10", "asg": 6, "q_num": 10, "q": "Which of the following can be considered as the Minor Aid Factors (AF) while using the MAPO tool?", "opts": {"A": "Wheelchair", "B": "Sliding sheet", "C": "Bed", "D": "None of these"}, "ans": "B", "topic": "Week 06: Assessment of Repetitive Tasks (ART)", "expl": ""}, {"id": "ergo_w07_q01", "asg": 7, "q_num": 1, "q": "How is reliability evaluated and checked when using observational techniques?", "opts": {"A": "The interview is conducted with interviewee", "B": "Recording of two observers are compared", "C": "Transcription is cross checked with observers", "D": "The questionnaire is prepared to compare"}, "ans": "B", "topic": "Week 07: Introduction & General Analysis Methods", "expl": "Follow the lecture 24 of NPTEL lecture series"}, {"id": "ergo_w07_q02", "asg": 7, "q_num": 2, "q": "Which item among the following is not required to carry out a verbal protocol procedure?", "opts": {"A": "Spreadsheet package", "B": "Audio or video recording", "C": "Software based video player", "D": "Pen and paper"}, "ans": "D", "topic": "Week 07: Introduction & General Analysis Methods", "expl": "Follow the lecture 24 of NPTEL lecture series"}, {"id": "ergo_w07_q03", "asg": 7, "q_num": 3, "q": "The total number of available methods under general analysis methods is:", "opts": {"A": "7", "B": "8", "C": "5", "D": "6"}, "ans": "C", "topic": "Week 07: Introduction & General Analysis Methods", "expl": "Follow the lecture 23 of NPTEL lecture series"}, {"id": "ergo_w07_q04", "asg": 7, "q_num": 4, "q": "The interview process does not create demand characteristics and never produces misleading findings.", "opts": {"A": "True", "B": "False"}, "ans": "B", "topic": "Week 07: Introduction & General Analysis Methods", "expl": "Follow the lecture 24 of NPTEL lecture series"}, {"id": "ergo_w07_q05", "asg": 7, "q_num": 5, "q": "Critical decision methods are primarily classified as a technique for:", "opts": {"A": "Cognitive task analysis", "B": "Error analysis", "C": "General analysis of cognition", "D": "Workload and situation analysis"}, "ans": "A", "topic": "Week 07: Introduction & General Analysis Methods", "expl": "Follow the lecture 23 of NPTEL lecture series"}, {"id": "ergo_w07_q06", "asg": 7, "q_num": 6, "q": "In the focus group technique, claims analysis refers to:", "opts": {"A": "The interviewees feedback to develop a set of usage scenarios", "B": "None of these", "C": "Introduction to interviewees to alternative product concept", "D": "The interviewees feedback to identify the features of these products about significance"}, "ans": "D", "topic": "Week 07: Introduction & General Analysis Methods", "expl": "Follow the lecture 24 of NPTEL lecture"}, {"id": "ergo_w07_q07", "asg": 7, "q_num": 7, "q": "Observational techniques are divided into three distinct categories.", "opts": {"A": "False", "B": "True"}, "ans": "B", "topic": "Week 07: Introduction & General Analysis Methods", "expl": "Follow the lecture 24 of NPTEL lecture series"}, {"id": "ergo_w07_q08", "asg": 7, "q_num": 8, "q": "How many distinct types of interviews are carried out for general analysis?", "opts": {"A": "3", "B": "5", "C": "4", "D": "6"}, "ans": "A", "topic": "Week 07: Introduction & General Analysis Methods", "expl": "Follow the lecture 24 of NPTEL lecture series"}, {"id": "ergo_w07_q09", "asg": 7, "q_num": 9, "q": "The focus group method is commonly referred to as the 'group interview' technique.", "opts": {"A": "True", "B": "False"}, "ans": "A", "topic": "Week 07: Introduction & General Analysis Methods", "expl": "Follow the lecture 25 of NPTEL lecture series"}, {"id": "ergo_w07_q10", "asg": 7, "q_num": 10, "q": "Which of the following represents the 5th stage of the verbal protocol procedure?", "opts": {"A": "Transcription", "B": "Encoding", "C": "Device scenario", "D": "Recording"}, "ans": "B", "topic": "Week 07: Introduction & General Analysis Methods", "expl": "Follow the lecture 24 of NPTEL lecture series"}, {"id": "ergo_w08_q01", "asg": 8, "q_num": 1, "q": "In Hierarchical Task Analysis (HTA), signals indicating the achievement of a goal are designated as:", "opts": {"A": "Action", "B": "Input", "C": "Feedback", "D": "Plan"}, "ans": "C", "topic": "Week 08: Cognitive Task Analysis Methods (HTA)", "expl": "Follow the lecture 26 of NPTEL lecture series"}, {"id": "ergo_w08_q02", "asg": 8, "q_num": 2, "q": "Which approaches and aids are included within the allocation of functions method?", "opts": {"A": "Hypothetical deductive model", "B": "Computational aids", "C": "Psychometric approaches", "D": "All of these"}, "ans": "D", "topic": "Week 08: Cognitive Task Analysis Methods (HTA)", "expl": "Follow the lecture 27 of NPTEL lecture series"}, {"id": "ergo_w08_q03", "asg": 8, "q_num": 3, "q": "Cognitive task analysis methods describe task strategies and required knowledge alongside human performance and error.", "opts": {"A": "True", "B": "False"}, "ans": "B", "topic": "Week 08: Cognitive Task Analysis Methods (HTA)", "expl": "Follow the lecture 26 of NPTEL lecture series"}, {"id": "ergo_w08_q04", "asg": 8, "q_num": 4, "q": "Applying the allocation of function method in a large-scale system is considered inexpensive.", "opts": {"A": "False", "B": "True"}, "ans": "A", "topic": "Week 08: Cognitive Task Analysis Methods (HTA)", "expl": "Follow the lecture 28 of NPTEL lecture series"}, {"id": "ergo_w08_q05", "asg": 8, "q_num": 5, "q": "What constitutes the 4th stage in the Hierarchical Task Analysis methodology?", "opts": {"A": "Identification of the source for task information", "B": "Acquiring data and draft decomposition table or diagram", "C": "Determination of task goals and performance criteria", "D": "Rechecking the validity of decomposition with stakeholders"}, "ans": "B", "topic": "Week 08: Cognitive Task Analysis Methods (HTA)", "expl": "Follow the lecture 27 of NPTEL lecture series"}, {"id": "ergo_w08_q06", "asg": 8, "q_num": 6, "q": "Which stage listed below is not included in cognitive task analysis methods?", "opts": {"A": "Background preparation", "B": "Elicitation of knowledge", "C": "Situation awareness representation", "D": "Knowledge representation"}, "ans": "C", "topic": "Week 08: Cognitive Task Analysis Methods (HTA)", "expl": "Follow the lecture 26 of NPTEL lecture series"}, {"id": "ergo_w08_q07", "asg": 8, "q_num": 7, "q": "What is executed in the 3rd step of the Critical Decision Method?", "opts": {"A": "Probe with what-if queries to elicit potential expert/novice differences", "B": "Deepen strategies for managing decision points embedded in the timeline", "C": "Create a detail incident timeline that shows the sequence of events", "D": "Identification of a complex potential incident to elicit discoveries about cognitive phenomena"}, "ans": "B", "topic": "Week 08: Cognitive Task Analysis Methods (HTA)", "expl": "Follow the lecture 29 of NPTEL lecture series"}, {"id": "ergo_w08_q08", "asg": 8, "q_num": 8, "q": "Which type of HTA plan represents a straightforward linear sequence of operational steps?", "opts": {"A": "A conditional sequence", "B": "Unordered procedure", "C": "Routine procedure", "D": "Time shared procedure"}, "ans": "C", "topic": "Week 08: Cognitive Task Analysis Methods (HTA)", "expl": "Follow the lecture 26 of NPTEL lecture series"}, {"id": "ergo_w08_q09", "asg": 8, "q_num": 9, "q": "The cross-method adaptation synthesizes the Critical Decision Method with related techniques.", "opts": {"A": "True", "B": "False"}, "ans": "A", "topic": "Week 08: Cognitive Task Analysis Methods (HTA)", "expl": "Follow the lecture 29 of NPTEL lecture series"}, {"id": "ergo_w08_q10", "asg": 8, "q_num": 10, "q": "In step 3 of the allocation of function method, what does the abbreviation 'C-H' designate for alternative model analysis?", "opts": {"A": "Shared between human and computer where computer in control", "B": "Computer only", "C": "Human only", "D": "Shared between human and computer where human is in control"}, "ans": "A", "topic": "Week 08: Cognitive Task Analysis Methods (HTA)", "expl": "Follow the lecture 28 of NPTEL lecture series"}, {"id": "ergo_w09_q01", "asg": 9, "q_num": 1, "q": "The approximate training time required to learn the SHERPA technique is:", "opts": {"A": "4 hours", "B": "6 hours", "C": "3 hours", "D": "5 hours"}, "ans": "C", "topic": "Week 09: Error Analysis Method (SHERPA & TAFEI)", "expl": "Follow the lecture 30 of NPTEL lecture series"}, {"id": "ergo_w09_q02", "asg": 9, "q_num": 2, "q": "Who was the original developer of the Systematic Human Error Reduction and Prediction Approach (SHERPA)?", "opts": {"A": "Stanton", "B": "Embrey", "C": "Williams", "D": "Baber"}, "ans": "B", "topic": "Week 09: Error Analysis Method (SHERPA & TAFEI)", "expl": "Follow the lecture 30 of NPTEL lecture series"}, {"id": "ergo_w09_q03", "asg": 9, "q_num": 3, "q": "An advantage of the TAFEI method is its structured and comprehensive procedural framework.", "opts": {"A": "False", "B": "True"}, "ans": "B", "topic": "Week 09: Error Analysis Method (SHERPA & TAFEI)", "expl": ""}, {"id": "ergo_w09_q04", "asg": 9, "q_num": 4, "q": "SHERPA technique explicitly models the cognitive mechanisms underlying human errors.", "opts": {"A": "False", "B": "True"}, "ans": "A", "topic": "Week 09: Error Analysis Method (SHERPA & TAFEI)", "expl": "Follow the lecture 30 of NPTEL lecture series"}, {"id": "ergo_w09_q05", "asg": 9, "q_num": 5, "q": "Which module of SHERPA is designed to assist analysts in choosing suitable error reduction strategies?", "opts": {"A": "Second module", "B": "Fourth module", "C": "First module", "D": "Third module"}, "ans": "D", "topic": "Week 09: Error Analysis Method (SHERPA & TAFEI)", "expl": "Follow the lecture 30 of NPTEL lecture series"}, {"id": "ergo_w09_q06", "asg": 9, "q_num": 6, "q": "The Task Analysis For Error Identification (TAFEI) framework was originally proposed by:", "opts": {"A": "Williams and Bridger", "B": "Stanton and Baber", "C": "Joseph and Will", "D": "None of these"}, "ans": "B", "topic": "Week 09: Error Analysis Method (SHERPA & TAFEI)", "expl": "Follow the lecture 31 of NPTEL lecture series"}, {"id": "ergo_w09_q07", "asg": 9, "q_num": 7, "q": "What is the fourth step involved in applying the SHERPA technique?", "opts": {"A": "Human error identification", "B": "Hierarchical task analysis", "C": "Consequence analysis", "D": "Critical analysis"}, "ans": "C", "topic": "Week 09: Error Analysis Method (SHERPA & TAFEI)", "expl": "Follow the lecture 30 of NPTEL lecture series"}, {"id": "ergo_w09_q08", "asg": 9, "q_num": 8, "q": "The standard training time needed for the TAFEI technique is approximately:", "opts": {"A": "3 hours", "B": "5 hours", "C": "4 hours", "D": "6 hours"}, "ans": "A", "topic": "Week 09: Error Analysis Method (SHERPA & TAFEI)", "expl": "Follow the lecture 31 of NPTEL lecture series"}, {"id": "ergo_w09_q09", "asg": 9, "q_num": 9, "q": "In Task Analysis For Error Identification (TAFEI), which component illustrates the behavior of the artifact?", "opts": {"A": "Hierarchical task analysis (HTA)", "B": "Transition Matrix", "C": "State-Space Diagram", "D": "None of these"}, "ans": "B", "topic": "Week 09: Error Analysis Method (SHERPA & TAFEI)", "expl": "Follow the lecture 31 of NPTEL lecture series"}, {"id": "ergo_w09_q10", "asg": 9, "q_num": 10, "q": "Which of the following tools is specifically needed when conducting a TAFEI analysis?", "opts": {"A": "Spread sheet", "B": "Audio and video recording", "C": "NASA TLX software", "D": "Pen and paper"}, "ans": "D", "topic": "Week 09: Error Analysis Method (SHERPA & TAFEI)", "expl": "Follow the lecture 31 of NPTEL lecture series"}, {"id": "ergo_w10_q01", "asg": 10, "q_num": 1, "q": "Which dimension in the NASA-TLX assessment measures how hard an individual works to maintain performance levels?", "opts": {"A": "Physical demand", "B": "Performance", "C": "Effort", "D": "Frustration level"}, "ans": "C", "topic": "Week 10: Workload & Situation Awareness (NASA-TLX & SAGAT)", "expl": "Follow the lecture 32 of NPTEL lecture series"}, {"id": "ergo_w10_q02", "asg": 10, "q_num": 2, "q": "What is the 6th step in the Critical Path Analysis technique?", "opts": {"A": "Calculate forward pass", "B": "Calculate backward pass", "C": "Assign times to the tasks", "D": "Define the task"}, "ans": "B", "topic": "Week 10: Workload & Situation Awareness (NASA-TLX & SAGAT)", "expl": "Follow the lecture 34 of NPTEL lecture series"}, {"id": "ergo_w10_q03", "asg": 10, "q_num": 3, "q": "Mental workload is defined as a single-dimensional attribute of task demands.", "opts": {"A": "True", "B": "False"}, "ans": "B", "topic": "Week 10: Workload & Situation Awareness (NASA-TLX & SAGAT)", "expl": "Follow the lecture 32 of NPTEL lecture series"}, {"id": "ergo_w10_q04", "asg": 10, "q_num": 4, "q": "Who developed the Situation Awareness Global Assessment Technique (SAGAT)?", "opts": {"A": "Endsley", "B": "Stanton", "C": "Wicken", "D": "Bush"}, "ans": "A", "topic": "Week 10: Workload & Situation Awareness (NASA-TLX & SAGAT)", "expl": "Follow the lecture 35 of NPTEL lecture series"}, {"id": "ergo_w10_q05", "asg": 10, "q_num": 5, "q": "Electrodermal response used in mental workload quantification is categorized under:", "opts": {"A": "Subjective rating", "B": "Primary task performance measurement", "C": "Secondary task performance measurement", "D": "Physiological measurement"}, "ans": "D", "topic": "Week 10: Workload & Situation Awareness (NASA-TLX & SAGAT)", "expl": "Follow the lecture 32 of NPTEL lecture series"}, {"id": "ergo_w10_q06", "asg": 10, "q_num": 6, "q": "Parallel performance in user task execution can be accommodated by Critical Path Analysis.", "opts": {"A": "True", "B": "False"}, "ans": "A", "topic": "Week 10: Workload & Situation Awareness (NASA-TLX & SAGAT)", "expl": "Follow the lecture 34 of NPTEL lecture series"}, {"id": "ergo_w10_q07", "asg": 10, "q_num": 7, "q": "In NASA-TLX evaluation, each dimension is rated on a numerical scale of:", "opts": {"A": "1-30", "B": "1-10", "C": "1-20", "D": "1-5"}, "ans": "C", "topic": "Week 10: Workload & Situation Awareness (NASA-TLX & SAGAT)", "expl": "Follow the lecture 32 of NPTEL lecture series"}, {"id": "ergo_w10_q08", "asg": 10, "q_num": 8, "q": "Projecting events and states into the near future corresponds to which level of Situation Awareness?", "opts": {"A": "Level I situation awareness", "B": "Level III situation awareness", "C": "Level II situation awareness", "D": "Level IV situation awareness"}, "ans": "B", "topic": "Week 10: Workload & Situation Awareness (NASA-TLX & SAGAT)", "expl": "Follow the lecture 35 of NPTEL lecture series"}, {"id": "ergo_w10_q09", "asg": 10, "q_num": 9, "q": "The Multiple Resource Theory proposing distinct cognitive resource pools was introduced by:", "opts": {"A": "Wicken", "B": "William", "C": "Stanton", "D": "Bush"}, "ans": "A", "topic": "Week 10: Workload & Situation Awareness (NASA-TLX & SAGAT)", "expl": "Follow the lecture 33 of NPTEL lecture series"}, {"id": "ergo_w10_q10", "asg": 10, "q_num": 10, "q": "In the 4D Multiple Resource Model, spatial and verbal speaking are categorized under which dimension?", "opts": {"A": "Perceptual", "B": "Visual", "C": "Processing", "D": "Motor"}, "ans": "C", "topic": "Week 10: Workload & Situation Awareness (NASA-TLX & SAGAT)", "expl": "Follow the lecture 33 of NPTEL lecture series"}, {"id": "ergo_w11_q01", "asg": 11, "q_num": 1, "q": "In an evoked EEG configuration, presenting human faces in visual stimuli triggers which Event-Related Potential (ERP)?", "opts": {"A": "P100", "B": "N170", "C": "P300", "D": "N100"}, "ans": "B", "topic": "Week 11: Mental Workload Measurement; Indirect Methods", "expl": "Follow the lecture 36 of NPTEL lecture series"}, {"id": "ergo_w11_q02", "asg": 11, "q_num": 2, "q": "What is the frequency band of Alpha (α) waves during free-running EEG recording?", "opts": {"A": "Between 8 to 13 Hz", "B": "Less than 4 Hz", "C": "Between 4 to 8 Hz", "D": "Over 30 Hz"}, "ans": "A", "topic": "Week 11: Mental Workload Measurement; Indirect Methods", "expl": "Follow the lecture 36 of NPTEL lecture series"}, {"id": "ergo_w11_q03", "asg": 11, "q_num": 3, "q": "Which eye-tracking methodology places surface sensors around the eyes to record potential differences during ocular movement?", "opts": {"A": "Scleral search coil", "B": "Infrared occulography", "C": "Video occulography", "D": "Electro occulography"}, "ans": "D", "topic": "Week 11: Mental Workload Measurement; Indirect Methods", "expl": "Follow the lecture 37 of NPTEL lecture series"}, {"id": "ergo_w11_q04", "asg": 11, "q_num": 4, "q": "Ear-EEG is considered an example of:", "opts": {"A": "Ambulatory EEG", "B": "Beyond wearable EEG", "C": "Research lab EEG", "D": "Wearable EEG"}, "ans": "B", "topic": "Week 11: Mental Workload Measurement; Indirect Methods", "expl": "Follow the lecture 36 of NPTEL lecture series"}, {"id": "ergo_w11_q05", "asg": 11, "q_num": 5, "q": "Which eye movement metric refers to a spatial cluster formed by successive gaze fixations?", "opts": {"A": "Fixation", "B": "Smooth pursuit", "C": "Heat maps", "D": "Scan path"}, "ans": "A", "topic": "Week 11: Mental Workload Measurement; Indirect Methods", "expl": "Follow the lecture 37 of NPTEL lecture series"}, {"id": "ergo_w11_q06", "asg": 11, "q_num": 6, "q": "Which EEG electrode category comes in both disposable and reusable configurations?", "opts": {"A": "Active electrode", "B": "Dry electrode", "C": "Passive wet electrode", "D": "Hybrid electrode"}, "ans": "C", "topic": "Week 11: Mental Workload Measurement; Indirect Methods", "expl": "Follow the lecture 36 of NPTEL lecture series"}, {"id": "ergo_w11_q07", "asg": 11, "q_num": 7, "q": "The scan path metric is designed to measure the area of a stimulus that received maximum attention.", "opts": {"A": "True", "B": "False"}, "ans": "B", "topic": "Week 11: Mental Workload Measurement; Indirect Methods", "expl": "Follow the lecture 37 of NPTEL lecture series"}, {"id": "ergo_w11_q08", "asg": 11, "q_num": 8, "q": "How many total recording electrodes are integrated into the EPOC Emotiv neuroheadset?", "opts": {"A": "12", "B": "8", "C": "18", "D": "16"}, "ans": "D", "topic": "Week 11: Mental Workload Measurement; Indirect Methods", "expl": "Follow the lecture 36 of NPTEL lecture series"}, {"id": "ergo_w11_q09", "asg": 11, "q_num": 9, "q": "A visual region that attracts noticeably more ocular focus and fixation than other zones is termed an:", "opts": {"A": "Area of interest", "B": "Fixation", "C": "Saccade", "D": "Regression"}, "ans": "A", "topic": "Week 11: Mental Workload Measurement; Indirect Methods", "expl": "Follow the lecture 37 of NPTEL lecture series"}, {"id": "ergo_w11_q10", "asg": 11, "q_num": 10, "q": "Which eye-tracking technique is most widely utilized in commercial applications?", "opts": {"A": "Electro occulography", "B": "Video occulography", "C": "Scleral search coil", "D": "Infrared occulography"}, "ans": "B", "topic": "Week 11: Mental Workload Measurement; Indirect Methods", "expl": "Follow the lecture 37 of NPTEL lecture series"}, {"id": "ergo_w12_q01", "asg": 12, "q_num": 1, "q": "The Cognitive Reliability and Error Analysis Method (CREAM) represents which generation of Human Reliability Assessment (HRA)?", "opts": {"A": "1st generation", "B": "3rd generation", "C": "2nd generation", "D": "4th generation"}, "ans": "C", "topic": "Week 12: Human Reliability & Environmental Factors", "expl": "Follow the lecture 39 of NPTEL lecture series"}, {"id": "ergo_w12_q02", "asg": 12, "q_num": 2, "q": "How many Error Producing Conditions (EPCs) are identified in the HEART framework?", "opts": {"A": "35", "B": "38", "C": "36", "D": "37"}, "ans": "B", "topic": "Week 12: Human Reliability & Environmental Factors", "expl": "Follow the lecture 38 of NPTEL lecture series"}, {"id": "ergo_w12_q03", "asg": 12, "q_num": 3, "q": "When two or more light sources emit identical lumens but have different spatial intensity distributions, this describes:", "opts": {"A": "Luminance", "B": "Luminous flux", "C": "Illumination", "D": "Luminous intensity"}, "ans": "D", "topic": "Week 12: Human Reliability & Environmental Factors", "expl": "Follow the lecture 41 of NPTEL lecture series"}, {"id": "ergo_w12_q04", "asg": 12, "q_num": 4, "q": "Applying the CREAM technique requires no foundational human factors background or expertise.", "opts": {"A": "False", "B": "True"}, "ans": "A", "topic": "Week 12: Human Reliability & Environmental Factors", "expl": "Follow the lecture 39 of NPTEL lecture series"}, {"id": "ergo_w12_q05", "asg": 12, "q_num": 5, "q": "What is the third step in the Human Error Assessment and Reduction Technique (HEART)?", "opts": {"A": "Identify the error producing conditions (EPCs)", "B": "Determine the assessed proportion of affect (APOA)", "C": "Consider error reduction measures", "D": "Assign normal human error probability"}, "ans": "A", "topic": "Week 12: Human Reliability & Environmental Factors", "expl": "Follow the lecture 38 of NPTEL lecture series"}, {"id": "ergo_w12_q06", "asg": 12, "q_num": 6, "q": "In subjective acoustic perception, a neutral sound is typically audible at approximately:", "opts": {"A": "Less than 10 dB", "B": "More than 20 dB", "C": "Equivalent to 15 dB", "D": "At 5 dB"}, "ans": "C", "topic": "Week 12: Human Reliability & Environmental Factors", "expl": "Follow the lecture 41 of NPTEL lecture series"}, {"id": "ergo_w12_q07", "asg": 12, "q_num": 7, "q": "The HEART technique imposes minimal assessor resource demands and offers flexible application.", "opts": {"A": "True", "B": "False"}, "ans": "A", "topic": "Week 12: Human Reliability & Environmental Factors", "expl": "Follow the lecture 38 of NPTEL lecture series"}, {"id": "ergo_w12_q08", "asg": 12, "q_num": 8, "q": "In CREAM, what is the nominal error probability interval corresponding to Tactical Control Mode?", "opts": {"A": "0.5E – 5 < p < 1E – 2", "B": "1E – 2 < p < 0.5E0", "C": "1E – 3 < p < 1E – 1", "D": "1E – 1 < p < 1E0"}, "ans": "B", "topic": "Week 12: Human Reliability & Environmental Factors", "expl": "Follow the lecture 39 of NPTEL lecture series"}, {"id": "ergo_w12_q09", "asg": 12, "q_num": 9, "q": "Numbness is an established physiological symptom of whole-body vibration.", "opts": {"A": "True", "B": "False"}, "ans": "B", "topic": "Week 12: Human Reliability & Environmental Factors", "expl": "Follow the lecture 41 of NPTEL lecture series"}, {"id": "ergo_w12_q10", "asg": 12, "q_num": 10, "q": "Ambient air temperature is directly measured using which instrument?", "opts": {"A": "Alcohol-filled thermometer", "B": "Electronic thermometer", "C": "Globe thermometer", "D": "Ambient temperature sensor"}, "ans": "A", "topic": "Week 12: Human Reliability & Environmental Factors", "expl": "Follow the lecture 40 of NPTEL lecture series"}];
+
+const $ = (s, r = document) => r.querySelector(s);
+const $$ = (s, r = document) => [...r.querySelectorAll(s)];
+
+const load = (k, d) => {
+  try {
+    const val = localStorage.getItem(k);
+    return val ? JSON.parse(val) : d;
+  } catch (e) {
+    return d;
+  }
+};
+
+const save = (k, v) => {
+  try {
+    localStorage.setItem(k, JSON.stringify(v));
+  } catch (e) {
+    console.error('Storage save error', e);
+  }
+};
+
+// Initialize Questions
+let Q = load(KEY_Q, null);
+if (!Q || !Array.isArray(Q) || Q.length === 0) {
+  Q = DEFAULT_QUESTIONS;
+  save(KEY_Q, Q);
+}
+
+let S = load(KEY_S, {});
+let STARS = new Set(load(KEY_STARS, []));
+let session = null;
+let page = 'home';
+
+// Helpers
+const el = (tag, attrs = {}, ...children) => {
+  const node = document.createElement(tag);
+  for (const [k, v] of Object.entries(attrs)) {
+    if (k.startsWith('on') && typeof v === 'function') node[k] = v;
+    else if (k === 'class') node.className = v;
+    else if (k === 'style') node.style.cssText = v;
+    else if (v !== null && v !== undefined && v !== false) node.setAttribute(k, v === true ? '' : v);
+  }
+  for (const child of children) {
+    if (child === null || child === undefined || child === false) continue;
+    if (Array.isArray(child)) child.forEach(c => c && node.append(c));
+    else node.append(typeof child === 'string' || typeof child === 'number' ? document.createTextNode(child) : child);
+  }
+  return node;
+};
+
+const st = id => S[id] || { a: 0, c: 0, streak: 0, last: null, t: 0 };
+const isNew = id => st(id).a === 0;
+const isWeak = id => {
+  const s = st(id);
+  return s.a > 0 && (s.c / s.a < 0.6 || (s.a - s.c >= 2) || s.last === false);
+};
+const isMastered = id => {
+  const s = st(id);
+  return s.a >= 2 && s.streak >= 2 && (s.c / s.a >= 0.8);
+};
+const pct = (c, a) => a ? Math.round((c / a) * 100) : 0;
+const shuffle = arr => [...arr].sort(() => Math.random() - 0.5);
+
+const updateBadges = () => {
+  const weakCount = Q.filter(x => isWeak(x.id)).length;
+  const wb = $('#weakBadge');
+  if (wb) {
+    wb.textContent = weakCount;
+    wb.style.display = weakCount ? 'inline-block' : 'none';
+  }
+  const sb = $('#starBadge');
+  if (sb) {
+    sb.textContent = STARS.size;
+    sb.style.display = STARS.size ? 'inline-block' : 'none';
+  }
+};
+
+const toggleStar = (id) => {
+  if (STARS.has(id)) STARS.delete(id);
+  else STARS.add(id);
+  save(KEY_STARS, [...STARS]);
+  updateBadges();
+  render();
+};
+
+/* Session handling */
+function startSession(mode, topic = '', countLimit = 0) {
+  let pool = Q.filter(x => !topic || x.topic === topic);
+  if (!pool.length) {
+    alert('No questions match this selection.');
+    return;
+  }
+
+  if (mode === 'weak') {
+    pool = pool.filter(x => isWeak(x.id)).sort((a, b) => (st(b.id).a - st(b.id).c) - (st(a.id).a - st(a.id).c));
+    if (!pool.length) {
+      alert('No weak questions yet in this category! Practice more questions to build your weak list.');
+      return;
+    }
+  } else if (mode === 'new') {
+    pool = shuffle(pool.filter(x => isNew(x.id)));
+    if (!pool.length) {
+      alert('All questions in this selection have been attempted! Try "Smart Mix" or "All Questions".');
+      return;
+    }
+  } else if (mode === 'starred') {
+    pool = pool.filter(x => STARS.has(x.id));
+    if (!pool.length) {
+      alert('No starred questions yet! Use the ⭐ button on any question to bookmark it.');
+      return;
+    }
+    pool = shuffle(pool);
+  } else if (mode === 'smart') {
+    const w = shuffle(pool.filter(x => isWeak(x.id)));
+    const n = shuffle(pool.filter(x => isNew(x.id)));
+    const r = shuffle(pool.filter(x => !isWeak(x.id) && !isNew(x.id)));
+    pool = [...w, ...n, ...r];
+  } else {
+    pool = shuffle(pool);
+  }
+
+  if (countLimit > 0 && pool.length > countLimit) {
+    pool = pool.slice(0, countLimit);
+  }
+
+  session = {
+    queue: pool.map(x => x.id),
+    i: 0,
+    answered: null,
+    results: [],
+    mode,
+    topic,
+    startTime: Date.now()
+  };
+  render();
+}
+
+function answer(letter) {
+  if (!session || session.answered) return;
+  const q = Q.find(x => x.id === session.queue[session.i]);
+  if (!q) return;
+
+  const ok = letter.toUpperCase() === q.ans.toUpperCase();
+  session.answered = letter.toUpperCase();
+  session.results.push({ id: q.id, picked: session.answered, ok });
+
+  const s = st(q.id);
+  S[q.id] = {
+    a: s.a + 1,
+    c: s.c + (ok ? 1 : 0),
+    streak: ok ? s.streak + 1 : 0,
+    last: ok,
+    t: Date.now()
+  };
+  save(KEY_S, S);
+  updateBadges();
+  render();
+}
+
+function next() {
+  if (!session) return;
+  session.i++;
+  session.answered = null;
+  render();
+}
+
+/* Views */
+function viewHome() {
+  const total = Q.length;
+  const attempted = Q.filter(x => st(x.id).a > 0).length;
+  const weak = Q.filter(x => isWeak(x.id)).length;
+  const mastered = Q.filter(x => isMastered(x.id)).length;
+  let totalA = 0, totalC = 0;
+  for (const x of Q) {
+    totalA += st(x.id).a;
+    totalC += st(x.id).c;
+  }
+
+  const v = el('div');
+
+  // Stats Card
+  const statsGrid = el('div', { class: 'stats' },
+    el('div', { class: 'stat' }, el('b', {}, String(total)), el('span', {}, 'Total Questions')),
+    el('div', { class: 'stat' }, el('b', { style: 'color:var(--ok)' }, String(mastered)), el('span', {}, 'Mastered')),
+    el('div', { class: 'stat' }, el('b', { style: 'color:var(--bad)' }, String(weak)), el('span', {}, 'Weak Questions')),
+    el('div', { class: 'stat' }, el('b', {}, `${attempted}/${total}`), el('span', {}, 'Attempted')),
+    el('div', { class: 'stat' }, el('b', { class: 'pct' }, `${pct(totalC, totalA)}%`), el('span', {}, 'Overall Accuracy'))
+  );
+  v.append(statsGrid);
+
+  // Practice Card
+  const topics = [...new Set(Q.map(x => x.topic))].sort();
+  const selTopic = el('select', { id: 'selTopic', style: 'flex:1;min-width:200px' },
+    el('option', { value: '' }, `All Topics (${total} Questions)`),
+    ...topics.map(t => {
+      const cnt = Q.filter(x => x.topic === t).length;
+      return el('option', { value: t }, `${t} (${cnt} Qs)`);
+    })
+  );
+
+  const selCount = el('select', { id: 'selCount', style: 'width:140px' },
+    el('option', { value: '0' }, 'All available'),
+    el('option', { value: '10' }, '10 Questions'),
+    el('option', { value: '20' }, '20 Questions'),
+    el('option', { value: '5' }, '5 Quick Qs')
+  );
+
+  const getParams = () => ({
+    topic: selTopic.value,
+    count: parseInt(selCount.value, 10) || 0
+  });
+
+  const practiceCard = el('div', { class: 'card' },
+    el('div', { style: 'display:flex;justify-content:space-between;align-items:center;margin-bottom:12px' },
+      el('b', { style: 'font-size:17px' }, 'Start Practice Session')
+    ),
+    el('div', { class: 'row', style: 'margin-bottom:14px' },
+      el('span', { class: 'mute', style: 'font-size:14px;font-weight:600' }, 'Topic:'),
+      selTopic,
+      el('span', { class: 'mute', style: 'font-size:14px;font-weight:600' }, 'Count:'),
+      selCount
+    ),
+    el('div', { class: 'modes' },
+      el('button', {
+        class: 'mode primary',
+        onclick: () => { const p = getParams(); startSession('smart', p.topic, p.count); }
+      },
+        el('div', {},
+          el('b', {}, '⚡ Smart Mix'),
+          el('small', {}, 'Prioritizes weak questions, then unattempted, then review')
+        ),
+        el('span', { style: 'font-size:20px' }, '→')
+      ),
+      el('button', {
+        class: 'mode',
+        onclick: () => { const p = getParams(); startSession('all', p.topic, p.count); }
+      },
+        el('div', {},
+          el('b', {}, '🎲 All Questions (Shuffled)'),
+          el('small', {}, 'Full randomized practice across selected scope')
+        ),
+        el('span', { style: 'font-size:20px;color:var(--mute)' }, '→')
+      ),
+      el('button', {
+        class: 'mode',
+        onclick: () => { const p = getParams(); startSession('weak', p.topic, p.count); }
+      },
+        el('div', {},
+          el('b', {}, `⚠️ Weak Only (${weak} total)`),
+          el('small', {}, 'Target questions you have missed or have low accuracy on')
+        ),
+        el('span', { style: 'font-size:20px;color:var(--mute)' }, '→')
+      ),
+      el('button', {
+        class: 'mode',
+        onclick: () => { const p = getParams(); startSession('new', p.topic, p.count); }
+      },
+        el('div', {},
+          el('b', {}, `✨ New / Unseen Questions (${total - attempted} unattempted)`),
+          el('small', {}, 'Practice questions you have not answered yet')
+        ),
+        el('span', { style: 'font-size:20px;color:var(--mute)' }, '→')
+      ),
+      STARS.size > 0 ? el('button', {
+        class: 'mode',
+        onclick: () => { const p = getParams(); startSession('starred', p.topic, p.count); }
+      },
+        el('div', {},
+          el('b', {}, `⭐ Starred Questions (${STARS.size} bookmarked)`),
+          el('small', {}, 'Practice your bookmarked questions')
+        ),
+        el('span', { style: 'font-size:20px;color:var(--star)' }, '★')
+      ) : null
+    )
+  );
+  v.append(practiceCard);
+
+  // Topic Breakdown Table
+  const topicRows = topics.map(t => {
+    const qs = Q.filter(x => x.topic === t);
+    let a = 0, c = 0;
+    qs.forEach(x => { a += st(x.id).a; c += st(x.id).c; });
+    const w = qs.filter(x => isWeak(x.id)).length;
+    return {
+      topic: t,
+      total: qs.length,
+      attempted: qs.filter(x => st(x.id).a > 0).length,
+      accuracy: pct(c, a),
+      weak: w
+    };
+  });
+
+  const tableCard = el('div', { class: 'card' },
+    el('div', { style: 'display:flex;justify-content:space-between;align-items:center' },
+      el('b', { style: 'font-size:16px' }, 'Week-by-Week Topics'),
+      el('span', { class: 'mute', style: 'font-size:13px' }, `${topics.length} Modules`)
+    ),
+    el('div', { class: 'table-wrap' },
+      el('table', {},
+        el('thead', {},
+          el('tr', {},
+            el('th', {}, 'Topic / Assignment'),
+            el('th', { style: 'text-align:center' }, 'Qs'),
+            el('th', { style: 'text-align:center' }, 'Progress'),
+            el('th', { style: 'text-align:center' }, 'Accuracy'),
+            el('th', { style: 'text-align:center' }, 'Weak'),
+            el('th', { style: 'text-align:right' }, 'Action')
+          )
+        ),
+        el('tbody', {},
+          ...topicRows.map(row => el('tr', {},
+            el('td', { style: 'font-weight:600' }, row.topic),
+            el('td', { style: 'text-align:center;color:var(--mute)' }, String(row.total)),
+            el('td', { style: 'text-align:center' }, `${row.attempted}/${row.total}`),
+            el('td', { style: 'text-align:center' }, row.attempted > 0 ? el('span', { class: 'pct' }, `${row.accuracy}%`) : el('span', { class: 'mute' }, '—')),
+            el('td', { style: 'text-align:center' }, row.weak > 0 ? el('span', { class: 'tag weak' }, `${row.weak}`) : el('span', { class: 'mute' }, '0')),
+            el('td', { style: 'text-align:right' },
+              el('button', {
+                class: 'btn-sm primary',
+                onclick: () => startSession('smart', row.topic, 0)
+              }, 'Practice')
+            )
+          ))
+        )
+      )
+    )
+  );
+  v.append(tableCard);
+
+  return v;
+}
+
+function viewQuiz() {
+  const v = el('div');
+
+  // Completed Session Screen
+  if (session.i >= session.queue.length) {
+    const results = session.results;
+    const correctCount = results.filter(x => x.ok).length;
+    const missed = results.filter(x => !x.ok);
+    const scorePct = pct(correctCount, results.length);
+
+    let congratText = 'Keep practicing to master these topics!';
+    if (scorePct === 100) congratText = '🌟 Perfect Score! Flawless knowledge of these concepts!';
+    else if (scorePct >= 80) congratText = '🎉 Excellent Performance! Solid understanding!';
+    else if (scorePct >= 60) congratText = '👍 Good job! Review the missed questions below to strengthen recall.';
+
+    const finishCard = el('div', { class: 'card', style: 'text-align:center;padding:30px 20px' },
+      el('h2', { style: 'margin:0 0 6px' }, 'Session Completed'),
+      el('p', { class: 'mute', style: 'margin:0 0 16px' }, congratText),
+      el('div', { class: 'score-circle' },
+        el('span', { class: 'score-num' }, `${scorePct}%`),
+        el('span', { class: 'score-label' }, `${correctCount}/${results.length} Correct`)
+      ),
+      el('div', { class: 'row', style: 'justify-content:center;gap:12px;margin:20px 0 10px' },
+        missed.length ? el('button', {
+          class: 'primary',
+          onclick: () => {
+            session = {
+              queue: shuffle(missed.map(m => m.id)),
+              i: 0,
+              answered: null,
+              results: [],
+              mode: 'retry',
+              topic: session.topic,
+              startTime: Date.now()
+            };
+            render();
+          }
+        }, `🔄 Retry Missed (${missed.length})`) : null,
+        el('button', {
+          onclick: () => startSession(session.mode, session.topic, 0)
+        }, '🔁 Practice Again'),
+        el('button', {
+          onclick: () => { session = null; render(); }
+        }, '🏠 Back Home')
+      )
+    );
+    v.append(finishCard);
+
+    // List of missed items
+    if (missed.length) {
+      const missedCard = el('div', { class: 'card' },
+        el('b', { style: 'font-size:16px;color:var(--bad)' }, `Review Missed Questions (${missed.length})`),
+        el('div', { style: 'display:flex;flex-direction:column;gap:14px;margin-top:14px' },
+          ...missed.map(m => {
+            const q = Q.find(x => x.id === m.id);
+            if (!q) return null;
+            return el('div', { class: 'expl', style: 'border-left-color:var(--bad);background:var(--badbg)' },
+              el('div', { class: 'meta', style: 'margin-bottom:4px' },
+                el('span', { class: 'tag topic' }, q.topic),
+                el('button', {
+                  class: 'star-btn' + (STARS.has(q.id) ? ' starred' : ''),
+                  title: 'Star question',
+                  onclick: () => toggleStar(q.id)
+                }, STARS.has(q.id) ? '★' : '☆')
+              ),
+              el('div', { style: 'font-weight:700;font-size:15px;margin-bottom:6px' }, q.q),
+              el('div', { style: 'color:var(--bad);font-weight:600' }, `Your answer: ${m.picked}) ${q.opts[m.picked] || 'N/A'}`),
+              el('div', { style: 'color:var(--ok);font-weight:700;margin-top:2px' }, `Correct answer: ${q.ans}) ${q.opts[q.ans]}`),
+              q.expl ? el('div', { style: 'margin-top:6px;font-size:13.5px;color:var(--ink)' }, `💡 ${q.expl}`) : null
+            );
+          })
+        )
+      );
+      v.append(missedCard);
+    }
+
+    return v;
+  }
+
+  // Active Question Card
+  const qId = session.queue[session.i];
+  const q = Q.find(x => x.id === qId);
+  if (!q) {
+    session = null;
+    return viewHome();
+  }
+
+  const ans = session.answered;
+  const progressPct = Math.round(((session.i) / session.queue.length) * 100);
+  const isStarred = STARS.has(q.id);
+
+  const card = el('div', { class: 'card' },
+    // Meta header
+    el('div', { class: 'meta' },
+      el('div', { class: 'meta-tags' },
+        el('span', { class: 'tag topic' }, q.topic),
+        el('span', {}, `Question ${session.i + 1} of ${session.queue.length}`)
+      ),
+      el('div', { class: 'row', style: 'gap:6px' },
+        el('button', {
+          class: 'star-btn' + (isStarred ? ' starred' : ''),
+          title: isStarred ? 'Unstar question' : 'Star question',
+          onclick: () => toggleStar(q.id)
+        }, isStarred ? '★' : '☆'),
+        el('button', {
+          class: 'btn-sm',
+          title: 'Quit session',
+          onclick: () => {
+            if (confirm('Leave current quiz session and return to home?')) {
+              session = null;
+              render();
+            }
+          }
+        }, '✕ Exit')
+      )
+    ),
+
+    // Progress Bar
+    el('div', { class: 'bar' }, el('i', { style: `width: ${progressPct}%` })),
+
+    // Question
+    el('div', { class: 'q' }, q.q),
+
+    // Options
+    el('div', { class: 'opts' },
+      ...Object.keys(q.opts).sort().map(k => {
+        let cls = 'opt';
+        let iconText = '';
+        if (ans) {
+          if (k.toUpperCase() === q.ans.toUpperCase()) {
+            cls += ' right';
+            iconText = '✓';
+          } else if (k.toUpperCase() === ans.toUpperCase()) {
+            cls += ' wrong';
+            iconText = '✗';
+          }
+        }
+        return el('button', {
+          class: cls,
+          onclick: () => answer(k),
+          ...(ans ? { disabled: true } : {})
+        },
+          el('span', { class: 'k' }, `${k})`),
+          el('span', { class: 'text' }, q.opts[k]),
+          el('span', { class: 'icon' }, iconText)
+        );
+      })
+    ),
+
+    // Explanation (shown after answering)
+    ans ? el('div', { class: 'expl' },
+      el('b', {}, ans === q.ans ? '✓ Correct!' : `✗ Incorrect (Correct answer: ${q.ans})`),
+      q.expl ? el('div', { style: 'margin-top:4px' }, q.expl) : el('div', { style: 'margin-top:4px' }, `Answer: ${q.ans}) ${q.opts[q.ans]}`)
+    ) : null,
+
+    // Bottom Action Row
+    el('div', { class: 'row', style: 'justify-content:space-between;margin-top:18px' },
+      el('div', { class: 'mute', style: 'font-size:13px' },
+        st(q.id).a > 0 ? `Your stats: ${st(q.id).c}/${st(q.id).a} correct` : 'First attempt'
+      ),
+      ans ? el('button', {
+        id: 'nextBtn',
+        class: 'primary',
+        onclick: next
+      }, session.i + 1 >= session.queue.length ? 'View Results 🏁' : 'Next Question ↵') : null
+    ),
+
+    // Keyboard Shortcuts Hint
+    el('div', { class: 'keyboard-hint' },
+      el('span', {}, el('span', { class: 'kbd' }, 'A'), el('span', { class: 'kbd' }, 'B'), el('span', { class: 'kbd' }, 'C'), el('span', { class: 'kbd' }, 'D'), ' to answer'),
+      el('span', {}, el('span', { class: 'kbd' }, '↵ Enter'), ' for next'),
+      el('span', {}, el('span', { class: 'kbd' }, 'S'), ' to bookmark')
+    )
+  );
+
+  v.append(card);
+  return v;
+}
+
+function viewWeak() {
+  const list = Q.filter(x => st(x.id).a > 0 && isWeak(x.id))
+    .sort((a, b) => (st(b.id).a - st(b.id).c) - (st(a.id).a - st(a.id).c));
+
+  const v = el('div');
+  if (!list.length) {
+    v.append(el('div', { class: 'card', style: 'text-align:center;padding:36px 20px' },
+      el('div', { style: 'font-size:40px;margin-bottom:8px' }, '🎉'),
+      el('b', { style: 'font-size:18px' }, 'No weak questions!'),
+      el('p', { class: 'mute', style: 'margin:8px 0 16px' }, 'Any question you miss during quizzes will be collected here for targeted review.'),
+      el('button', { class: 'primary', onclick: () => go('home') }, 'Start Practicing')
+    ));
+    return v;
+  }
+
+  v.append(el('div', { class: 'card' },
+    el('div', { style: 'display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px;margin-bottom:14px' },
+      el('div', {},
+        el('b', { style: 'font-size:18px' }, `Questions to Strengthen (${list.length})`),
+        el('div', { class: 'mute', style: 'font-size:13px' }, 'Sorted by highest miss rate')
+      ),
+      el('button', {
+        class: 'primary',
+        onclick: () => startSession('weak', '', 0)
+      }, '⚡ Practice Weak Questions Now')
+    ),
+    el('div', { style: 'display:flex;flex-direction:column;gap:14px' },
+      ...list.map(x => {
+        const s = st(x.id);
+        const isStarred = STARS.has(x.id);
+        return el('div', { class: 'expl', style: 'background:var(--card);border:1px solid var(--line);border-left:4px solid var(--bad);border-radius:8px' },
+          el('div', { class: 'meta', style: 'margin-bottom:6px' },
+            el('div', { class: 'meta-tags' },
+              el('span', { class: 'tag weak' }, `${s.c}/${s.a} right (${pct(s.c, s.a)}%)`),
+              el('span', { class: 'tag topic' }, x.topic)
+            ),
+            el('button', {
+              class: 'star-btn' + (isStarred ? ' starred' : ''),
+              onclick: () => toggleStar(x.id)
+            }, isStarred ? '★' : '☆')
+          ),
+          el('div', { style: 'font-weight:700;font-size:15.5px;margin-bottom:6px' }, x.q),
+          el('div', { style: 'color:var(--ok);font-weight:600' }, `Correct Answer: ${x.ans}) ${x.opts[x.ans]}`),
+          x.expl ? el('div', { class: 'mute', style: 'font-size:13.5px;margin-top:4px' }, `💡 ${x.expl}`) : null
+        );
+      })
+    )
+  ));
+  return v;
+}
+
+function viewStarred() {
+  const list = Q.filter(x => STARS.has(x.id));
+  const v = el('div');
+  if (!list.length) {
+    v.append(el('div', { class: 'card', style: 'text-align:center;padding:36px 20px' },
+      el('div', { style: 'font-size:40px;margin-bottom:8px' }, '⭐'),
+      el('b', { style: 'font-size:18px' }, 'No starred questions yet'),
+      el('p', { class: 'mute', style: 'margin:8px 0 16px' }, 'Click the star icon (☆) on any question to bookmark it for quick access anytime.'),
+      el('button', { class: 'primary', onclick: () => go('home') }, 'Go to Home')
+    ));
+    return v;
+  }
+
+  v.append(el('div', { class: 'card' },
+    el('div', { style: 'display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px;margin-bottom:14px' },
+      el('div', {},
+        el('b', { style: 'font-size:18px' }, `Starred Questions (${list.length})`),
+        el('div', { class: 'mute', style: 'font-size:13px' }, 'Your handpicked revision bookmarks')
+      ),
+      el('button', {
+        class: 'primary',
+        onclick: () => startSession('starred', '', 0)
+      }, '⭐ Practice Starred Questions')
+    ),
+    el('div', { style: 'display:flex;flex-direction:column;gap:14px' },
+      ...list.map(x => {
+        const s = st(x.id);
+        return el('div', { class: 'expl', style: 'background:var(--card);border:1px solid var(--line);border-left:4px solid var(--star);border-radius:8px' },
+          el('div', { class: 'meta', style: 'margin-bottom:6px' },
+            el('div', { class: 'meta-tags' },
+              el('span', { class: 'tag topic' }, x.topic),
+              s.a > 0 ? el('span', { class: 'tag ' + (isWeak(x.id) ? 'weak' : 'ok') }, `${s.c}/${s.a} right`) : el('span', { class: 'tag' }, 'Unattempted')
+            ),
+            el('button', {
+              class: 'star-btn starred',
+              title: 'Remove star',
+              onclick: () => toggleStar(x.id)
+            }, '★')
+          ),
+          el('div', { style: 'font-weight:700;font-size:15.5px;margin-bottom:6px' }, x.q),
+          el('div', { style: 'color:var(--ok);font-weight:600' }, `Answer: ${x.ans}) ${x.opts[x.ans]}`),
+          x.expl ? el('div', { class: 'mute', style: 'font-size:13.5px;margin-top:4px' }, `💡 ${x.expl}`) : null
+        );
+      })
+    )
+  ));
+  return v;
+}
+
+function parseTextQuestions(text) {
+  const out = [];
+  const errors = [];
+  let cur = null;
+
+  const flush = () => {
+    if (!cur) return;
+    const keys = Object.keys(cur.opts);
+    if (!cur.q || keys.length < 2 || !cur.ans || !cur.opts[cur.ans]) {
+      errors.push(`Skipped question: "${(cur.q || '').slice(0, 50)}..." (requires text, at least 2 options, and valid answer)`);
+    } else {
+      const simpleId = 'custom_' + Math.random().toString(36).substr(2, 9);
+      out.push({
+        id: simpleId,
+        q: cur.q.trim(),
+        opts: cur.opts,
+        ans: cur.ans.toUpperCase(),
+        topic: (cur.topic || 'General Ergonomics').trim(),
+        expl: (cur.expl || '').trim()
+      });
+    }
+    cur = null;
+  };
+
+  for (const raw of text.split(/\r?\n/)) {
+    const line = raw.trim();
+    if (!line) continue;
+
+    let m;
+    if (m = line.match(/^(?:Q\s*\d*\s*[:.)]|\d+\s*[.)])\s*(.*)$/i)) {
+      flush();
+      cur = { q: m[1], opts: {}, topic: 'General Ergonomics', expl: '' };
+    } else if (!cur) {
+      continue;
+    } else if (m = line.match(/^\(?([A-F])[.)]\s*(.*)$/i)) {
+      const k = m[1].toUpperCase();
+      cur.opts[k] = m[2];
+    } else if (m = line.match(/^ans(?:wer)?\s*[:\-]\s*\(?([A-F])\b/i)) {
+      cur.ans = m[1].toUpperCase();
+    } else if (m = line.match(/^topic\s*[:\-]\s*(.*)$/i)) {
+      cur.topic = m[1];
+    } else if (m = line.match(/^(?:detailed solution|explanation|expl)\s*[:\-]\s*(.*)$/i)) {
+      cur.expl = m[1];
+    } else if (cur && !Object.keys(cur.opts).length && !cur.ans) {
+      cur.q += ' ' + line;
+    }
+  }
+  flush();
+  return { out, errors };
+}
+
+function addQuestions(list) {
+  const have = new Set(Q.map(x => x.q.toLowerCase().trim()));
+  let added = 0;
+  for (const x of list) {
+    if (!have.has(x.q.toLowerCase().trim())) {
+      Q.push(x);
+      have.add(x.q.toLowerCase().trim());
+      added++;
+    }
+  }
+  save(KEY_Q, Q);
+  return added;
+}
+
+function viewManage() {
+  const v = el('div');
+
+  const ta = el('textarea', {
+    placeholder: `Q: What does the Job Strain Index (JSI) evaluate?\nA) Hand, wrist, and elbow strain\nB) Lower back compression only\nC) Foot posture\nD) Eye fatigue\nAnswer: A\nTopic: Week 02: Job Strain Index (JSI)\nExplanation: JSI focuses on hand, wrist, and forearm risks.`
+  });
+  const msg = el('div', { class: 'mute', style: 'margin-top:8px;font-size:13.5px;white-space:pre-wrap' });
+
+  const addCard = el('div', { class: 'card' },
+    el('b', { style: 'font-size:17px' }, 'Add Custom Questions'),
+    el('p', { class: 'mute', style: 'margin:4px 0 10px;font-size:13px' },
+      'Paste questions in standard format shown. You can append multiple questions separated by blank lines.'
+    ),
+    ta,
+    el('div', { class: 'row', style: 'margin-top:10px' },
+      el('button', {
+        class: 'primary',
+        onclick: () => {
+          const { out, errors } = parseTextQuestions(ta.value);
+          const added = addQuestions(out);
+          msg.textContent = `Successfully added ${added} question(s).` +
+            (out.length - added > 0 ? ` (${out.length - added} duplicate(s) skipped)` : '') +
+            (errors.length ? '\n' + errors.join('\n') : '');
+          if (added) {
+            ta.value = '';
+            render();
+          }
+        }
+      }, '➕ Parse & Add Questions'),
+      el('button', {
+        onclick: () => { ta.value = ''; msg.textContent = ''; }
+      }, 'Clear Input')
+    ),
+    msg
+  );
+  v.append(addCard);
+
+  // Backup & Storage Management Card
+  const fileInput = el('input', {
+    type: 'file',
+    accept: '.json',
+    style: 'display:none',
+    onchange: e => {
+      const f = e.target.files[0];
+      if (!f) return;
+      const reader = new FileReader();
+      reader.onload = () => {
+        try {
+          const data = JSON.parse(reader.result);
+          if (Array.isArray(data)) {
+            Q = data;
+          } else if (data.Q && Array.isArray(data.Q)) {
+            Q = data.Q;
+            if (data.S) S = data.S;
+            if (data.STARS) STARS = new Set(data.STARS);
+          } else {
+            throw new Error('Unrecognized JSON format');
+          }
+          save(KEY_Q, Q);
+          save(KEY_S, S);
+          save(KEY_STARS, [...STARS]);
+          alert(`Successfully imported ${Q.length} questions!`);
+          render();
+        } catch (err) {
+          alert('Error importing JSON: ' + err.message);
+        }
+      };
+      reader.readAsText(f);
+    }
+  });
+
+  const storageCard = el('div', { class: 'card' },
+    el('b', { style: 'font-size:17px' }, 'Data Backup & Reset'),
+    el('p', { class: 'mute', style: 'margin:4px 0 12px;font-size:13px' },
+      'Export your question bank and practice history to a JSON file, or restore default course content.'
+    ),
+    fileInput,
+    el('div', { class: 'row' },
+      el('button', {
+        onclick: () => {
+          const blob = new Blob([JSON.stringify({ Q, S, STARS: [...STARS] }, null, 2)], { type: 'application/json' });
+          const url = URL.createObjectURL(blob);
+          const a = el('a', { href: url, download: 'ergo-quiz-backup.json' });
+          a.click();
+          URL.revokeObjectURL(url);
+        }
+      }, '📥 Export Backup (JSON)'),
+      el('button', {
+        onclick: () => fileInput.click()
+      }, '📤 Import Backup (JSON)'),
+      el('button', {
+        class: 'danger',
+        onclick: () => {
+          if (confirm('Reset all scores, attempts, and streaks? (Questions will not be deleted)')) {
+            S = {};
+            save(KEY_S, S);
+            render();
+          }
+        }
+      }, '🔄 Reset Scores'),
+      el('button', {
+        class: 'danger',
+        onclick: () => {
+          if (confirm('Restore the original 120 Ergonomics questions from NPTEL assignments?')) {
+            Q = DEFAULT_QUESTIONS;
+            save(KEY_Q, Q);
+            render();
+          }
+        }
+      }, '♻️ Restore Default 120 Questions')
+    )
+  );
+  v.append(storageCard);
+
+  // Question Explorer Card
+  const searchInput = el('input', {
+    type: 'search',
+    placeholder: 'Search questions by keyword...',
+    style: 'flex:1;min-width:220px'
+  });
+
+  const qListContainer = el('div', { style: 'margin-top:14px;display:flex;flex-direction:column;gap:10px' });
+
+  const renderQuestionList = (filter = '') => {
+    qListContainer.replaceChildren();
+    const query = filter.toLowerCase().trim();
+    const filtered = Q.filter(x => !query || x.q.toLowerCase().includes(query) || x.topic.toLowerCase().includes(query));
+
+    if (!filtered.length) {
+      qListContainer.append(el('div', { class: 'mute', style: 'padding:14px;text-align:center' }, 'No questions match your search.'));
+      return;
+    }
+
+    filtered.slice(0, 50).forEach(x => {
+      const qRow = el('div', {
+        style: 'padding:12px 14px;border:1px solid var(--line);border-radius:8px;background:var(--card);display:flex;justify-content:space-between;align-items:flex-start;gap:12px'
+      },
+        el('div', { style: 'flex:1' },
+          el('div', { style: 'margin-bottom:4px' },
+            el('span', { class: 'tag topic' }, x.topic),
+            el('span', { class: 'tag ok', style: 'margin-left:4px' }, `Ans: ${x.ans}`)
+          ),
+          el('div', { style: 'font-weight:600;font-size:14.5px' }, x.q)
+        ),
+        el('button', {
+          class: 'btn-sm danger',
+          title: 'Delete this question',
+          onclick: () => {
+            if (confirm(`Delete this question?\n\n"${x.q.slice(0, 60)}..."`)) {
+              Q = Q.filter(item => item.id !== x.id);
+              save(KEY_Q, Q);
+              renderQuestionList(searchInput.value);
+            }
+          }
+        }, '🗑 Delete')
+      );
+      qListContainer.append(qRow);
+    });
+
+    if (filtered.length > 50) {
+      qListContainer.append(el('div', { class: 'mute', style: 'text-align:center;font-size:13px;padding:8px' }, `Showing first 50 of ${filtered.length} questions.`));
+    }
+  };
+
+  searchInput.oninput = () => renderQuestionList(searchInput.value);
+
+  const explorerCard = el('div', { class: 'card' },
+    el('div', { style: 'display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px;margin-bottom:12px' },
+      el('b', { style: 'font-size:17px' }, `All Questions Bank (${Q.length})`),
+      searchInput
+    ),
+    qListContainer
+  );
+  v.append(explorerCard);
+
+  renderQuestionList();
+  return v;
+}
+
+/* Page Navigation */
+function go(p) {
+  page = p;
+  session = null;
+  $$('nav button.nav-btn').forEach(b => {
+    b.classList.toggle('active', b.dataset.go === p);
+  });
+  render();
+}
+
+function render() {
+  const root = $('#view');
+  root.replaceChildren();
+
+  if (session) {
+    root.append(viewQuiz());
+  } else if (page === 'weak') {
+    root.append(viewWeak());
+  } else if (page === 'starred') {
+    root.append(viewStarred());
+  } else if (page === 'manage') {
+    root.append(viewManage());
+  } else {
+    root.append(viewHome());
+  }
+
+  updateBadges();
+  window.scrollTo(0, 0);
+
+  const nb = $('#nextBtn');
+  if (nb) nb.focus();
+}
+
+/* Theme Management */
+function initTheme() {
+  const currentTheme = localStorage.getItem(KEY_THEME) || 'auto';
+  applyTheme(currentTheme);
+
+  $('#themeToggle').onclick = () => {
+    const cur = document.documentElement.getAttribute('data-theme') || 'auto';
+    let nextTheme = 'light';
+    if (cur === 'light') nextTheme = 'dark';
+    else if (cur === 'dark') nextTheme = 'auto';
+    else nextTheme = 'light';
+
+    applyTheme(nextTheme);
+  };
+}
+
+function applyTheme(t) {
+  if (t === 'auto') {
+    document.documentElement.removeAttribute('data-theme');
+    $('#themeToggle').textContent = '🌓';
+  } else {
+    document.documentElement.setAttribute('data-theme', t);
+    $('#themeToggle').textContent = t === 'dark' ? '🌙' : '☀️';
+  }
+  localStorage.setItem(KEY_THEME, t);
+}
+
+/* Keyboard Navigation */
+window.addEventListener('keydown', e => {
+  if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') return;
+
+  if (session) {
+    const k = e.key.toUpperCase();
+    const q = Q.find(x => x.id === session.queue[session.i]);
+    if (!q) return;
+
+    if (!session.answered) {
+      if (q.opts[k]) {
+        e.preventDefault();
+        answer(k);
+      } else if (k === '1' && q.opts['A']) answer('A');
+      else if (k === '2' && q.opts['B']) answer('B');
+      else if (k === '3' && q.opts['C']) answer('C');
+      else if (k === '4' && q.opts['D']) answer('D');
+      else if (k === 'S' || k === 'B') toggleStar(q.id);
+    } else {
+      if (e.key === 'Enter' || e.key === ' ') {
+        e.preventDefault();
+        next();
+      } else if (k === 'S' || k === 'B') {
+        toggleStar(q.id);
+      }
+    }
+  }
+});
+
+// Setup nav handlers
+$$('nav [data-go]').forEach(b => b.addEventListener('click', () => go(b.dataset.go)));
+
+// Initial boot
+initTheme();
+go('home');
+</script>
+</body>
+</html>
